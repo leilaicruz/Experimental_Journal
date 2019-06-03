@@ -16,7 +16,7 @@
 ## Results
 
 * The negative control, did not grow on the selection plate. The negative control is the reference strain with any insert on the mixture. They did not grow on -URA plates
-* I have more than 100 transformats colonies growing on -URA. However, after 5 days of incubation none of them turned pink, as expected if they dont produce ADE2 gene.
+* I have more than 100 transformants colonies growing on -URA. However, after 5 days of incubation none of them turned pink, as expected if they dont produce ADE2 gene.
 * High variability in colony sizes, indicating different genetic backgrounds (?)
 
 ## Colony PCR
@@ -32,4 +32,5 @@
 2. **Why there is one colony showing the right and the wrong band at the same time?** This means that the URA gene + promotor  was inserted in the ADE2 locus, replacing it , and at the same time not replacing it ????????????????
 
 ## Next experiments
-1. Sequencing the ADE2 gene of yll3a, and one small and big colony, to see if the ADE2 we are taking from SGD is indeed the same sequence as the one we have in yll3a. 
+1. Replica plating on -ade2 plates to see if they have the ADE2 intact or not. (Yes, they do, all of the colonies did grow on -ade2 plates.)
+2. Sequencing the ADE2 gene of yll3a, and one small and big colony, to see if the ADE2 we are taking from SGD is indeed the same sequence as the one we have in yll3a.

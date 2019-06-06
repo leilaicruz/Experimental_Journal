@@ -10,6 +10,8 @@ The right homology arm was overlapping 203bp of the RGA1 gene. In total it has 3
  ![](../images/overlapping_with_rga1_gene.png)
 # Method
 Primer design in SnapGene
+
+[Link to the SnapGeneFile](C:\Users\linigodelacruz\Documents\PhD_2018\Documentation\SATAY\Primers_sequence_for_ADE_deletion\Chrom_XV_for_ade2.dna)
 # Results
 ### New primer design:
  ![](../images/solving_overlapping_with_rga1_gene.png)

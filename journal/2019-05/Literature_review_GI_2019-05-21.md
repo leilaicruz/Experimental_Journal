@@ -44,7 +44,8 @@ At the lower level we have:
   > Edges between these elements would indicate that they are co-expressed in different contexts or that their expression profiles throughout multiple experimental conditions are highly correlated.
 
 3. Physical interactions between different elements - protein- protein (PPI), protein-DNA (PDI) or protein-RNA (PRI) interactions.
-4.  Functional relationships linking these physical elements. These are GI networks, signaling and metabolic pathways.
+4.  Functional relationships linking these physical elements.
+  > These are GI networks, signaling and metabolic pathways.
 5.  The fifth level would level the biological processes.
   > This level would contain networks where protein implicated in the same biological proces would be linked by an edge.
 

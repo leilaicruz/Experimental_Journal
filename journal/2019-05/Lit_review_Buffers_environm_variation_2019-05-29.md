@@ -12,7 +12,7 @@ tags:
 ****
 My idea that relate to the paper:
 
-according the idea of the paper that knockouts of phenotypic capacitor does not impact largely the growth rate of the strain, then Bem1 should not function as a phenotypic capacitor.
+According the idea of the paper that knockouts of phenotypic capacitor does not impact largely the growth rate of the strain, then Bem1 should not function as a phenotypic capacitor. (**however this is conrtadictory with the fact that hsp90 is an essential gene**)
 
 However, it is interesting to dig on the role of phenotypic capacitors on evolutionary trajectories.
 specifically on the role of SUP35 and PSI prion on regulating the translation after reading a stop codon. [Look in this Q & A  about phenotypic capacitors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849687/)

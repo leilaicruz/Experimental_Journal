@@ -7,7 +7,7 @@
 To remove the ade2 gene from yll3a and insert the URA+ promoter in its locus.
 
 # Method
-[Yeast transformation protocol](C:/Users/linigodelacruz/Documents/PhD_2018/Documentation/SATAY/Yeast_transformation/Protocol_Yeast_Transformation.pdf)
+[Yeast transformation protocol](C:\Users\linigodelacruz\Documents\PhD_2018\Documentation\SATAY\URA_transformation_in_the_ADE_locus_032019\Protocol_PCR.pdf)
 
 ## Homology arms:
 * left homology arm: 236 bp
@@ -17,6 +17,34 @@ To remove the ade2 gene from yll3a and insert the URA+ promoter in its locus.
 
 ## DNA concentration
 8ul of 803 ng/ul OEP1 = 6.4 ug
+
+## Selection plates
+- -URA + 3x ADE
+- -URA
+- YPD
 # Results
+**Growth of pink colonies in -ura+3x ADE plates** :-)
+
+![](../images/pink_colonies_ura_transf_06062019.jpg)
+
+**No Growth of pink colonies in -ura plates** 🤔
+![](../images/no_pink_colonies_-ura_06062019.jpg)
+
+## Colony PCR
+
+- I will check 10 colonies, 3 yellow and 7 pink , to check that the URA is inserted in the right location.
+     > it should be, because of the fact that the colonies are pink, this is an indication that the ade2 was kickout :)
+
+### Expected size of the insert in PCR: 2065 bp
+
+![](../images/PCR_ura_in_ade2_map.png)
+
+### Expected size if the insert is NOT in the ade2 location: 2739bp
+
+![](../images/PCR_ura_NOT_in_ade2_map.png)
 
 # Conclusion
+ - To see the adenine deletion phenotype, namely, see pink colonies upon adenine depravation, in a transformations is necessary to supplement the transformation plate with extra adenine aminoacid. I did 2x more adenine than what the normal drop-out has.
+    > The usual concentration in CSM is 10mg/l
+
+    > I prepare a 50mL stock of 10mg/ml (1000x concentrated), and add 40ul for 20ml -URA plates (2x), which sum to 3x (2x+1x) the normal adenine concentration in a drop out plate.

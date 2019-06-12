@@ -30,10 +30,7 @@ To remove the ade2 gene from yll3a and insert the URA+ promoter in its locus.
 **No Growth of pink colonies in -ura plates** 🤔
 ![](../images/no_pink_colonies_-ura_06062019.jpg)
 
-## Colony PCR
-
-- I will check 10 colonies, 3 yellow and 7 pink , to check that the URA is inserted in the right location.
-     > it should be, because of the fact that the colonies are pink, this is an indication that the ade2 was kickout :)
+## Genomic Prep
 
 ### Expected size of the insert in PCR: 2065 bp
 
@@ -43,6 +40,8 @@ To remove the ade2 gene from yll3a and insert the URA+ promoter in its locus.
 
 ![](../images/PCR_ura_NOT_in_ade2_map.png)
 
+### Results 😀😀😀
+![](../images/TUD07245_2019-06-12_16hr_43min_edited.png)
 # Conclusion
  - To see the adenine deletion phenotype, namely, see pink colonies upon adenine depravation, in a transformations is necessary to supplement the transformation plate with extra adenine aminoacid. I did 2x more adenine than what the normal drop-out has.
     > The usual concentration in CSM is 10mg/l

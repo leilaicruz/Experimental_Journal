@@ -25,4 +25,9 @@ The digestion with EcoRV, to confirm the right plasmid from the genomic prep don
 
 # Results
 
+- Around 24 colonies did growth... No so great efficiency.
+- No growth in the negative control
+
+
+![](../Images/-ura_selction_plates_ByK832_and_pbk549.jpg)
 # Conclusion

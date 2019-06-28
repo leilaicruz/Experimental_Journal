@@ -1,4 +1,4 @@
-##What is the question?
+## What is the question?
 
 Main question:
 
@@ -9,20 +9,27 @@ Subquestions:
 
 
 
-##Why is it hard? / why it has not being solved before?
+## Why is it hard? / why it has not being solved before?
 
+The major hurdle in this question is that it implies existing high throughput techniques able to map the whole genome in different "states".
 
- The main challenge in this question is how to map the yeast genome to search for essential and non essential genes in a systematic manner.
- So far, what that have been used for measuring the essential genes of yeast genome are chemical mutagenesis methods, homologous recombination strategies, dCas9- based gene repression, among others. Most of them are tedious and  incomplete for analysing the whole genome.
+ Hence, how to map the yeast genome to search for essential and non essential genes in a systematic manner, is the central challenge for this.
+ So far, what that have been used for measuring the essential genes of yeast genome are chemical mutagenesis methods, homologous recombination strategies, dCas9- based gene repression, among others. Most of them are tedious and  incomplete for analysing the whole genome. Also, in some of these techniques, it is possible to get more than one mutation per mutagenesis step, which is not ideal in this case, because we lose control over the one to one gene interaction.
+
 
 
 
 ## What would be my approach?
 
+The research question indicates that the essentiality property of genes can change depending the genetic background/environmental conditions present in the organism. It has been already studied that the essentiality property depends on the environment the cells experienced. However, the systematic measure of which genes are essential along different genetic backgrounds has not yet being tested due to the a lack of high throughput techniques to realize this.
+
 Recently, a technique called Saturated transposition in yeast tackle this problem in a highly efficient way. The main principle is to saturate the yeast genome with independent insertions of the miniDs transposon. Deep-sequencing of the transposon-genome junctions allows to identify essential and non essential genomic loci.
 Since, the cells that happen to have a transposition event on an essential genomic loci wont grow, we wont have them on the sequencing library, hence those regions in the sequencing library will be devoid of transposon insertions.
 
+Therefore, to tackle the question of finding whether for the  evolutionary trajectory of bem1 deleted mutant,  there is a recovery of essential genes towards the wild type ratio , I will applied the SATAY technique over  meaningful intermediate steps (intermediate genotypes) in the evolutionary pathway, the parental mutant strain and wild type strain.
+
 ###  What will I measure?
 
+I will measure the number of transposon reads inserted
 
 ##How a possible answer can look like?

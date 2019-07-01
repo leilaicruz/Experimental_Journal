@@ -2,7 +2,7 @@
 
 Main question:
 
-**Are the reproducible genetic backgrounds acquired during evolutionary adaptation after crippling cell polarization showing a recovery of essential genes, towards the "unperturbed" genotype?**
+**Are the reproducible genetic backgrounds acquired during evolutionary adaptation after crippling cell polarization showing a recovery of essential genes, towards the uncrippled cell?**
 
 Subquestions:
 - To what extent are the essential and non essential genes changing across genetic backgrounds, such that it can be used as observable for the global genetic interaction network "state"?
@@ -30,6 +30,14 @@ Therefore, to tackle the question of finding whether for the  evolutionary traje
 
 ###  What will I measure?
 
-I will measure the number of transposon reads inserted
+Transposition events in each of the reproducible genetic backgrounds, namely:
 
-##How a possible answer can look like?
+1. bem1Δ ura3- ade2-
+2. bem1Δbem3Δ ura3- ade2-
+3. bem1Δbem3Δnrp1Δ ura3- ade2-
+4. bem1Δbem3Δnrp1Δbem2Δ ura3- ade2-
+5. wild type ura3- ade2-
+
+## How a possible answer can look like?
+The evolution from a crippled cell towards a wild type phenotype cell requires/implies evolving towards the wild type profile of essential genes.   
+ ![](../Images/expectations_satay_card_01072019.png)

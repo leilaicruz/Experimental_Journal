@@ -2,7 +2,7 @@
 
 Main question:
 
-**Are the reproducible genetic backgrounds acquired during evolutionary adaptation after crippling cell polarization showing a recovery of essential genes, towards the uncrippled cell?**
+**Are the reproducible genetic backgrounds acquired during evolutionary adaptation after crippling cell polarization showing a steadily change of essential genes towards the uncrippled cell essential gene profile?**
 
 Subquestions:
 - To what extent are the essential and non essential genes changing across genetic backgrounds, such that it can be used as observable for the global genetic interaction network "state"?
@@ -39,5 +39,5 @@ Transposition events in each of the reproducible genetic backgrounds, namely:
 5. wild type ura3- ade2-
 
 ## How a possible answer can look like?
-The evolution from a crippled cell towards a wild type phenotype cell requires/implies evolving towards the wild type profile of essential genes.   
+The evolution from a crippled cell towards a wild type phenotype cell requires/implies evolving towards the wild type profile of essential genes.
  ![](../Images/expectations_satay_card_01072019.png)

@@ -1,10 +1,10 @@
 # Title: URA transformation in ADE2 locus
 
-# Date
+## Date
 20052019
 # Objective
 To remove the ade2 gene from yll3a and insert the URA+ promoter in its locus.
-# Method
+## Method
 [Yeast transformation protocol](C:/Users/linigodelacruz/Documents/PhD_2018/Documentation/SATAY/Yeast_transformation/Protocol_Yeast_Transformation.pdf)
 
 ## Insert:
@@ -17,7 +17,7 @@ To remove the ade2 gene from yll3a and insert the URA+ promoter in its locus.
 * 2,5ng of the PCR product was used for it.
 * OD starting colony : 3
 
-# Results
+## Results
 * The negative control, did not grow :) on the selection plate (-URA). The negative control is yll3a  with any insert on the mixture.
 * I have more than 100 transformants colonies growing on -URA. However, after 5 days of incubation none of them turned pink, as expected if they dont produce ADE2 gene :( :( .
 * High variability in colony sizes, indicating different genetic backgrounds (:( 🤔)

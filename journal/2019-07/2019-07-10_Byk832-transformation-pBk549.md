@@ -22,8 +22,13 @@
     > Actually, they used to resuspend to a final volume of 500ul, for an initial volume of 50 ml of cells. I started with 5ml so I should have used 50ul as a final volume for LiAc, instead I used 100ul, so 2x more diluted mixture.
 - I mixed the transformation mix one by one component. First I added the PEG 240 ul and mixed throughly by pippeting in and out, then the LiAc 1M concentration 36ul , and 25ul od denaturated ssDNA and finally 10ul of 10.3ng/ul pBK549 plasmid.
 - I did not see clumpy cells this time :) this observation could be associated to high centrifugation speed and long times with LiAc before adding the transformation mix.
-- I plate all cells 200ul MiliQ from sample 1 and 190ul cells +10 ul Miliq from sample 2 and 10ul cells +190 ul MiliQ , ad all from the negative control in **-URA+2x ADE**. This means 40ul of 1000x ADE stock in a 20ml plate. 
+- I plate all cells 200ul MiliQ from sample 1 and 190ul cells +10 ul Miliq from sample 2 and 10ul cells +190 ul MiliQ , ad all from the negative control in **-URA+2x ADE**. This means 40ul of 1000x ADE stock in a 20ml plate.
 
 # Results
+- Today, 12072019 I can see some colonies in the selective plates , from the 190ul cells+10ul MiliQ plating. Byk832+ 100ng pBK549 plasmid 🙂
+![](../Images/colonies-2-days-incubation-ura-with-3xadenine.jpg)
+- Still the efficiency is very low compared with Agnes transformation from ETH 👇
+![](../Images/Transfo_20190625_Agnes-ETH.jpg)
 
 # Conclusion
+We have to streak the colonies onto -ade plates and see that we have only few gowth and a lot of growth on -ura

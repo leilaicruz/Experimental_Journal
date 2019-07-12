@@ -34,9 +34,13 @@ In order to use the two options for recovery, namely, previous 2-4 hours incubat
 - After removing the transformation mix , resuspend the cells in 1mL YPD
 - Split 500ul to a new eppi, to have two eppies per recovery options
 - Add 500ul YPD to each eppi
-- Take 200ul for one of them and plate in YPD+3xade (60ul 1000x)
+- Take 200ul for one of them and plate in YPD+3xade (60ul ade 1000x)
 - The rest ,2 tubes for  ylic132_2+OEP2 and 2 tubes for negative control of ylic132_2 , are left in the 30C incubator, from 3:15pm.
-- At 5:30pm takes one of each tube and plate in 5FOA (I only have 3 5FOA plates.. so I think I can only plate the transformed cells) I need exactly 3 plates : one for after incubation, one for replica plate , and the other one for plating the rest of the overnight culture.
+- At 5:30pm I took one of each tube and plate in 5FOA (I only have 3 5FOA plates.. so I think I can only plate the transformed cells 1mL) I need exactly 3 plates : one for after incubation, one for replica plate , and the other one for plating the rest of the overnight culture.
+- Next morning, I replica plated the YPD plate with a cell loan onto a 5FOA +3xade plate.
+- Plated from the overnight recovery culture of ylic132_2+OEP2, 800ul onto a new 5FOA +3x ade plate, to increase the chances of getting the right transformants.
+- Plate 800ul of ylic132_2 negative control onto another 5FOA+3xade I found in the 4C fridge.
+- Wait until 15072019, Monday, for the formation of colonies 🙏 
 
 ## Selection plates
 - **5FOA plates + 3x ADE** , in which only cells lacking URA3 are capable of grow. (positive control for the transformed cells)

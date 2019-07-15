@@ -29,6 +29,10 @@
 ![](../Images/colonies-2-days-incubation-ura-with-3xadenine.jpg)
 - Still the efficiency is very low compared with Agnes transformation from ETH 👇
 ![](../Images/Transfo_20190625_Agnes-ETH.jpg)
+- On 15072019 after weekend incubation in 30C
+
+  - pink cells!
+![](../images/byk832+100ng-pbk549+ade.jpg)
 
 # Conclusion
 We have to streak the colonies onto -ade plates and see that we have only few gowth and a lot of growth on -ura

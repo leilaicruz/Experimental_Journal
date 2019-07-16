@@ -1,4 +1,4 @@
-# Title : ylic132_1 and ylic132_2  transformation with the OEP2
+# Title : ylic132-1 and ylic132-2  transformation with the OEP2
 
 # Date
 11072019
@@ -70,7 +70,9 @@ In order to use the two options for recovery, namely, previous 2-4 hours incubat
  - Now I dont see , this egg like structure of the yellow cells concentrated in the center and pink cells around. I dropped the extra adenine at the edge of the plate, and not dropping in the center.
  - The most efficient one is the overnight recovery in liquid culture, in terms of amount of colonies.
  # Next steps:
+ - Plating 8 colonies in -ade and -ura to check that they dont grow.
+ - Overnight grow in liquid culture 1-5 for genomic prep.
  - Genomic Prep of 5 biological replicates
  - PCR with primer 22 and primer 23
  - Gel to check backgrounds
- - Sequencing to see that the URA is not there. 
+ - Sequencing to see that the URA is not there.

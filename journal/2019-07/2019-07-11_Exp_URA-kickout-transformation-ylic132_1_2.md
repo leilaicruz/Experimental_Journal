@@ -72,7 +72,7 @@ In order to use the two options for recovery, namely, previous 2-4 hours incubat
  # Next steps:
  - Plating 8 colonies in -ade and -ura to check that they dont grow.
  - Overnight grow in liquid culture 1-5 for genomic prep.
- - Genomic Prep of 5 biological replicates
+ - [Genomic Prep of 5 biological replicates](./2019-07-17_Exp-Genomic-prep-ylic133-clones.md)
  - PCR with primer 22 and primer 23
  - Gel to check backgrounds
  - Sequencing to see that the URA is not there.

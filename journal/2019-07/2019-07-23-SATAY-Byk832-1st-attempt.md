@@ -54,14 +54,26 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
 
     - Inoculate **200ml SD-URA 2% Galactose at OD600=0.2** from the saturated preculture.
     - Incubate at 30C , 140 to 160 rpm for **50-52 hours**
-    - To evaluate the background:
+    - **To evaluate the background**:
 
         - Spread 200ul of this inoculum on SD-ADE
         - Dilute the inoculum 1000x, spread 200ul on SD-URA and SD complete
             - score after 2 days:
             - [ ] Expect ~200-400 ADE+ clones/mL culture, i.e. ~0.01%-0.02% of the total number of cells.
                 *These are cells that repaired the ADE2 gene by homologous recombination WITHOUT transposition*
+    - Reproduce the following plots, with the chosen technical replicates for induction:
+    ![](../images/satay-benoit-induction-plots.png)
+
+          - Step 1: At the time of induction we plate 200ul from the induction culture at OD=0.2
+          - Step 2: Next day morning  repeat Step 1 (17 hours)
+          - Step 3: 3 hours later  repeat Step 1  (20 hours)
+          - Step 4: Next morning  repeat Step 1 (42 hours)
+          - Step 5: Same day afternoon , repeat Step 1 (51 hours)
+          - Step 6-8 : Every morning Step 1, for 5 days more.
+
     - The OD should have reached 4-5 after 20h of induction.
+
+      > Measure OD , next day after induction. 
 
 
 4. **Reseed**

@@ -42,19 +42,24 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
     #### Our data
     | Strain (2 technical replicates) | Preculture  |   |   |
     |---|---|---|---|
-    |   | OD start (29072019-:clock230: -> 14:30) |  OD stop |  Time  |
-    | Byk832T_1 | 0.19  |   |   |
-    | Byk832T_2  | 0.14  |   |   |
-    | Byk832T_3  | 0.17  |   |   |
+    |   | OD start (29072019-:clock230: -> 14:30) |  OD stop (**~2X higher<br> than Benoit data**) |  Time  |
+    | Byk832T_1(Leila) | 0.19  | ~ 12.6  | 19h  |
+    | Byk832T_2 (Leila) | 0.14  | ~11.2  | 19h  |
+    | Byk832T_3(Leila)  | 0.17  | ~ 10.8   | 19h  |
+    | Byk832T_1(Enzo)  | 0.19  | ~ 8   | 19h  |
+    | Byk832T_2(Enzo)  | 0.14  | ~ 10   | 19h  |
+    | Byk832T_3(Enzo)  | 0.17  | ~ 9.7   | 19h  |
 
 3. **Induction**
 
     - Inoculate **200ml SD-URA 2% Galactose at OD600=0.2** from the saturated preculture.
+       > We choose base on the OD values Byk832T_1(Enzo),Byk832T_2(Enzo), Byk832T_3(Enzo), and Byk832T_3(Leila) forthe induction in **150mL of media**
     - Incubate at 30C , 140 to 160 rpm for **50-52 hours**
+       > 30072019-:clock1030: -> 10:30 start T=0 of induction.
     - **To evaluate the background**:
 
-        - Spread 200ul of this inoculum on SD-ADE
-        - Dilute the inoculum 1000x, spread 200ul on SD-URA and SD complete
+        - [x] Spread 200ul of this inoculum on SD-ADE
+        - [x] Dilute the inoculum 1000x, spread 200ul on SD-URA and SD complete
             - score after 2 days:
             - [ ] Expect ~200-400 ADE+ clones/mL culture, i.e. ~0.01%-0.02% of the total number of cells.
                 *These are cells that repaired the ADE2 gene by homologous recombination WITHOUT transposition*
@@ -62,7 +67,11 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
     ![](../images/satay-benoit-induction-plots.png)
 
           - Step 1: At the time of induction we plate 200ul from the induction culture at OD=0.2
+     > We could not plate at T=0 from the induction culture, because we did not have enough plates.
+
           - Step 2: Next day morning  repeat Step 1 (17 hours)
+
+      >
           - Step 3: 3 hours later  repeat Step 1  (20 hours)
           - Step 4: Next morning  repeat Step 1 (42 hours)
           - Step 5: Same day afternoon , repeat Step 1 (51 hours)
@@ -95,9 +104,11 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
         | Strain  | Induction  |   |   |  |  |
         |---|---|---|---|---|---|
         |   | OD start |  OD stop |  Time  | # ADE+ cells/mL <br> at START | # ADE+ cells/mL  <br> at STOP |
-         | Byk832T_1|   |   |  51h | | |
-        | Byk832T_2  |   |   | 51h  |  | |
-        | Byk832T_3  |  |   | 51h  | | |
+         | Byk832T_3 (Leila)| 0.098  |   |  51h | | |
+        | Byk832T_1 (Enzo) | 0.484  |   | 51h  |  | |
+        | Byk832T_2 (Enzo) | 0.510 |   | 51h  | | |
+        | Byk832T_3 (Enzo)| 0.393  |   |  51h | | |
+
 
 
 4. **Reseed**

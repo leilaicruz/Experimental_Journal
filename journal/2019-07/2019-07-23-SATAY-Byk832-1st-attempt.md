@@ -1,4 +1,4 @@
-# Title: 29072019-SATAY 1st attempt with Byk832-T :pray:
+# Title: 29072019-SATAY 1st attempt with Byk832-T :pray: :confused: :x:
 
 # Date
 Tuesday, 29072019 -
@@ -61,8 +61,12 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
         - [x] Spread 200ul of this inoculum on SD-ADE
         - [x] Dilute the inoculum 1000x, spread 200ul on SD-URA and SD complete
             - score after 2 days:
-            - [ ] Expect ~200-400 ADE+ clones/mL culture, i.e. ~0.01%-0.02% of the total number of cells.
+            - [ ] Expect ~200-400 ADE+ clones/mL culture (~ 40-80 clones for 200ul), i.e. ~0.01%-0.02% of the total number of cells.
                 *These are cells that repaired the ADE2 gene by homologous recombination WITHOUT transposition*
+
+                > The plates next morning had easily more than 200 colonies , which means 5 times more than indicated for Benoit.
+
+                ![](../images/Byk832T-1-3--ade-200ul-culture.png)
     - Reproduce the following plots, with the chosen technical replicates for induction:
     ![](../images/satay-benoit-induction-plots.png)
 
@@ -71,7 +75,8 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
 
           - Step 2: Next day morning  repeat Step 1 (17 hours)
 
-      >
+      > **We aborted this attempt because of a high background**
+
           - Step 3: 3 hours later  repeat Step 1  (20 hours)
           - Step 4: Next morning  repeat Step 1 (42 hours)
           - Step 5: Same day afternoon , repeat Step 1 (51 hours)

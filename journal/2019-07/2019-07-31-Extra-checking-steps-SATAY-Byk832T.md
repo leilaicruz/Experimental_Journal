@@ -15,4 +15,13 @@ Essentially , they have to fulfill two main requirements:
 
 # Results
 
+1st line of plates : -URA plates
+
+2nd line of plates: -ade plates
+
+![](../images/Plates-Byk832T.png)
+
 # Conclusion
+
+- We can observe prominent growth in the -ade plates, indicating our transformed strains are not the ideal strains to continue with the SATAY.
+- We should transform them again with pBK549 and also transform another strain like yll3a with that plasmid , and compare both of them. 

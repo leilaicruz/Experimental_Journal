@@ -13,7 +13,7 @@ To succesfully transform Byk832 :pray: with the pBK549 plasmid, because so far w
 
 - 10ml YPD incubation 14:30 (05082019)
 - Dilution 2000X of yll3a and ylic133_1 in a final volume of 20mL, and 2X dilution of Byk832 in a final volume of 20mL. (06082019 13:30)
-- OD measurements of the overnight culture:
+- OD measurements of the overnight culture at 9:00:
 
 | Strain  | OD (100x diluted) | Titer| Dilution factor to OD=0.5 in 25mL|
 |---|---|---|---|
@@ -21,7 +21,31 @@ To succesfully transform Byk832 :pray: with the pBK549 plasmid, because so far w
 |ylic133_1  | 0.095 |9.5| 19x -> 1,316mL cells|
 |Byk832  | 0.142 |14| 28x -> 892uL cells|
 
--    
+- Incubation from OD=0.5 to OD=2. Started at 9:20
+- OD measurements of the incubated culture at 11:00:
+
+| Strain  | OD (10x diluted) | Titer|
+|---|---|---|
+|yLL3a   | 0.1 | 1|
+|ylic133_1  | 0.073 |0.7|
+|Byk832  | 0.059 |0.6|
+- OD measurements of the incubated culture at 13:15:
+
+| Strain  | OD (10x diluted) | Titer|
+|---|---|---|
+|yLL3a   | 0.19 | 1.9|
+|ylic133_1  | 0.14 |1.4|
+|Byk832  | 0.07 |0.7|
+- OD measurements of the incubated culture at 13:45:
+
+| Strain  | OD (10x diluted) | Titer|
+|---|---|---|
+|yLL3a   | 0.274 | 2.7|
+|ylic133_1  | 0.2 |2|
+|Byk832  | 0.09 |0.9|
+
+- Heat shock @42C for yll3a and ylic133_1 started at 15:05 for 30 mins
+- Byk832 OD @14:45 = 1.8 :)
 # Results
 
 # Conclusion

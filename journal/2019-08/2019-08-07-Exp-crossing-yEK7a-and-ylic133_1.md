@@ -18,6 +18,8 @@ In order to do SATAY on the specific genotypes, I have to get a diploid heterozy
 - 09082019- I selected 4 patches and grow them in liquid YPD media from 9:30am until they are dense (should be around 4 hours)
 - Then I will do the sporulation protocol from 14:00 until 21:00 and put it in KAc over the weekend, to have a quick check if they form spores.
    > - [x] Take a bit from each culture an streak onto a new YPD plate to conserve the strains in case it did work.
+
+
 # Results
 
 # Conclusion

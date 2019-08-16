@@ -10,7 +10,7 @@ To check the clones ability to fully grow in -URA and have few growth in -ade, a
 # Method
  - We are going to use spot plating , in -ura and -ade to evaluate better the differences in growth. See here the method :point_down:
 
- ![Spot Plating technique](../images/Spot-plating-technique-to-quantify-bacterial-numbers-This-fi-gure-illustrates-the-spot.png)
+![Spot Plating technique](../images/Spot-plating-technique-to-quantify-bacterial-numbers-This-fi-gure-illustrates-the-spot.png)
 
 - Specifically we selected 12 colonies of ylic33_1+pBK549 and Byk832+pBK549
 - 3 serial dilutions of each colony, e.g. 10, 100x, 1000x in MiliQ
@@ -31,6 +31,7 @@ To check the clones ability to fully grow in -URA and have few growth in -ade, a
 
 
 -------------------------------------
+This info can be found in: [This link](https://sites.google.com/view/newsatayusers/complete-protocol/pbk549)
 
 pBK549 is a weird cookie
 

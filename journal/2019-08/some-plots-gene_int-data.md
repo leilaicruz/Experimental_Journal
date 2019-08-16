@@ -1,3 +1,7 @@
+## 13082019- Some plots of genetic interactions vs common interactors
+
+This script is to visualize the results of the [script](../2019-07/2019-07-16_common-interactor-genes-workflow.md) that compute the common interactors genes between two genes. Here I try to visualize the correlation , if any, between the type of interaction between two genes and they common interactors. 
+
 
 
 ```python
@@ -6,7 +10,7 @@ import numpy as np
 from collections import defaultdict
 import seaborn as sns
 import matplotlib.pyplot as plt
-from statistics import mean 
+from statistics import mean
 %matplotlib inline
 ```
 
@@ -105,7 +109,7 @@ for i in range(0,len(data_positive)):
     std_values_negative.append(np.std(data_negative[i]))
     mean_values_lethal.append(np.mean(data_lethality[i]))
     std_values_lethal.append(np.std(data_lethality[i]))
-    
+
 mean_values=[mean_values_positive,mean_values_negative,mean_values_lethal]
 
 std_values=[std_values_positive,std_values_negative,std_values_lethal]
@@ -157,15 +161,15 @@ plt.savefig("violinplot-average-std-common-interactors-vs-interaction-type.png",
 
     C:\Users\linigodelacruz\AppData\Local\Continuum\anaconda3\lib\site-packages\scipy\stats\stats.py:1713: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
       return np.add.reduce(sorted[indexer] * weights, axis=axis) / sumval
-    
 
 
-![png](output_8_1.png)
+
+![png](../images/output_8_1.png)
 
 
 
 ```python
-## Plots 
+## Plots
 
 fig, axes = plt.subplots(1, 3, figsize=(10,5), dpi=100, sharex=True, sharey=True)
 fig.suptitle('Common interactions vs interaction type',x=0.5,y=1.05)
@@ -188,7 +192,7 @@ plt.ylabel('Normalized frequency',**axis_font)
 plt.xlabel('% of common interactions with the query gene',**axis_font)
 plt.xlim(0,50)
 # plt.ylim(0,0.15)
-plt.hist(data_positive[1:len(data_positive)],**kwargs_positive,label=['Positive Interactions'],cumulative=False) 
+plt.hist(data_positive[1:len(data_positive)],**kwargs_positive,label=['Positive Interactions'],cumulative=False)
 plt.title('Positive Interactions')
 
 plt.subplot(1,3, 2)
@@ -197,7 +201,7 @@ plt.grid(True)
 plt.xlim(0,50)
 # plt.ylim(0,0.15)
 plt.xlabel('% of common interactions with the query gene',**axis_font)
-plt.hist(data_negative[1:len(data_negative)],**kwargs_negative,label=['Negative Interactions'],cumulative=False) 
+plt.hist(data_negative[1:len(data_negative)],**kwargs_negative,label=['Negative Interactions'],cumulative=False)
 plt.title('Negative Interactions')
 
 plt.subplot(1,3, 3)
@@ -206,7 +210,7 @@ plt.grid(True)
 plt.xlim(0,50)
 # plt.ylim(0,0.15)
 plt.xlabel('% of common interactions with the query gene',**axis_font)
-plt.hist(data_lethality[1:len(data_lethality)],**kwargs_lethal,label=['Lethality Interactions'],cumulative=False) 
+plt.hist(data_lethality[1:len(data_lethality)],**kwargs_lethal,label=['Lethality Interactions'],cumulative=False)
 plt.title('Synthetic Lethal Interactions')
 
 plt.tight_layout()
@@ -214,7 +218,7 @@ plt.savefig("common-interactors-vs-interaction-type.tiff",dpi=300,format='tiff')
 ```
 
 
-![png](output_9_0.png)
+![png](../images/output_9_0.png)
 
 
 
@@ -252,7 +256,7 @@ plt.savefig("boxplot-common-interactors-vs-interaction-type.tiff",dpi=300,format
 ```
 
 
-![png](output_10_0.png)
+![png](../images/output_10_0.png)
 
 
 
@@ -291,10 +295,10 @@ plt.savefig("violinplot-common-interactors-vs-interaction-type.tiff",dpi=300,for
 
     C:\Users\linigodelacruz\AppData\Local\Continuum\anaconda3\lib\site-packages\scipy\stats\stats.py:1713: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
       return np.add.reduce(sorted[indexer] * weights, axis=axis) / sumval
-    
 
 
-![png](output_11_1.png)
+
+![png](../images/output_11_1.png)
 
 
 

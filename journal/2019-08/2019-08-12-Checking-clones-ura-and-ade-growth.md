@@ -22,6 +22,10 @@ To check the clones ability to fully grow in -URA and have few growth in -ade, a
 16082019
 ![](../images/all-plates-ura-ade-check-16082019.png)
 
+21082019- restreaking of same clones on -ura (autoclaved) and -ade plates :(
+![](../images/21082019-byk832T-ura-ade-not-succesfull.png)
+
+Basically extermely miserable growth in the -ura plates
 # Conclusion
 
 - The transformed strains in general grow very slowly in the -ura plates, the plates of the picture have been for 4 days already in the 30C incubator.

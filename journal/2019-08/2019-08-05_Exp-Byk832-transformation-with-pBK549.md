@@ -56,6 +56,10 @@ To succesfully transform Byk832 :pray: with the pBK549 plasmid, because so far w
 
 ![](../images/12082019-Byk832-ylic133-yll3a+pBk549-colonies.png)
 
+21082019:  Transformation plates after 10 days in room temperature, to better see the efficiency, it is like [Benoit and Agnes obtained](../2019-07/2019-07-10_Byk832-transformation-pBk549.md) 
+
+![](../images/Byk832T-ylic133T-21082019-colonies.png)
+
 # Conclusion
 - The plasmid could be integrated in other strains , and in the case of W303 background in wild type reach it like the efficiency of Benoit in his transformation with Byk832 (or more).
 - My strain ylic133_1 (ade2- and ura3-) also could be transformed with decent efficiency ~ 50 colonies per 100ng plasmid.

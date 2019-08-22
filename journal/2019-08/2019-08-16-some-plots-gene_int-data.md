@@ -1,4 +1,4 @@
-# Title 16082019: Script for the visualization of the correlation between number of common interactions and type of interactions
+# Title : 16082019 Script for the visualization of the correlation between number of common interactions and type of interactions
 
 ```python
 import pandas as pd

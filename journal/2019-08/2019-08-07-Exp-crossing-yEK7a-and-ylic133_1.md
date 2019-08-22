@@ -27,6 +27,10 @@ In order to do SATAY on the specific genotypes, I have to get a diploid heterozy
 - [x] Restreak the mating plate in YPD+G418+Clonat+Hygro because if there is any diploid should grow in that media as well ,due to yEK7a genotype.
 - [x] Evaluate the density compared to just YPD , and do sporulation again and look them in the microscope, to see if we can see some features of diploids cells, e.g. the axial pattern of division.
   > I took colony 5,6,7,8 from the YPD + G418+Hygro+NAT to grow in YPD (15082019 10:45am) and incubate until 16082019, to do sporulation again.
-- 16082019 Sporulation protocol of colonies 5,6,7 and 8.   
+- 16082019 Sporulation protocol of colonies 5,6,7 and 8.
 
 # Conclusion
+- The sporulation did not work neither :(
+- However I saw few tetrads on tube for colony 8 , meaning that they could mate but not as efficient.
+- Another factor that could influence the sporulation failure was that the KAc used was from a very old stock (2015!!).
+- Next experiment, will be using liquid drops for mating and a new stock of KAc !

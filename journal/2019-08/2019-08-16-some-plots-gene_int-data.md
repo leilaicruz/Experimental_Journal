@@ -285,7 +285,7 @@ plt.savefig("violinplot-average-std-common-interactors-vs-interaction-type.png",
 
 
 
-![png](../images/output_9_1.png)
+![](../images/output_9_1.png)
 
 
 
@@ -325,7 +325,7 @@ plt.savefig("boxplot-common-interactors-vs-interaction-type.png",dpi=300,format=
 ```
 
 
-![png](../images/output_10_0.png)
+![](../images/output_10_0.png)
 
 
 
@@ -364,7 +364,7 @@ plt.savefig("boxplot-2nd-pair-common-interactors-vs-interaction-type.png",dpi=30
 ```
 
 
-![png](../images/output_11_0.png)
+![](../images/output_11_0.png)
 
 
 
@@ -418,7 +418,7 @@ plt.savefig("common-interactors-vs-interaction-type.tiff",dpi=300,format='tiff')
 ```
 
 
-![png](../images/output_12_0.png)
+![](../images/output_12_0.png)
 
 
 
@@ -460,7 +460,7 @@ plt.savefig("violinplot-common-interactors-vs-interaction-type.tiff",dpi=300,for
 
 
 
-![png](../images/output_13_1.png)
+![](../images/output_13_1.png)
 
 
 

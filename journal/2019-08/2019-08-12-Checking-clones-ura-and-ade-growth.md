@@ -1,5 +1,5 @@
 
-# Title : 12082019-Checking clones of Byk832 and ylic33_1 for SATAY
+# Title : 12082019-Checking clones of Byk832 and ylic33_1 for SATAY :ok:
 
 # Date
 12082019
@@ -26,6 +26,16 @@ To check the clones ability to fully grow in -URA and have few growth in -ade, a
 ![](../images/21082019-byk832T-ura-ade-not-succesfull.png)
 
 Basically extermely miserable growth in the -ura plates
+
+- 26082019- results of restreaking clones from Byk832T and ylic133_1T in -ura+6xade (without autoclaving) and -ade (without autoclaving).
+  - Byk832T :)
+
+  	![](../images/Byk832T-ade-few-growth-01.png)
+
+  - ylic133_1T :(
+
+    ![](../images/ylic133-ade-no-growth-02.png)
+
 # Conclusion
 
 - The transformed strains in general grow very slowly in the -ura plates, the plates of the picture have been for 4 days already in the 30C incubator.

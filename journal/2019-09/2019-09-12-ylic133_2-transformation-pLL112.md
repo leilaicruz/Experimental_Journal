@@ -13,12 +13,20 @@ To mark temporarily ylic133 in order to be able to select for diploids after the
 
   |   | OD-10X dilution |Titer   |Dilution factor to OD=0.5   |Time|
   |---|---|---|---|---|
-  | ylic133_2  |0.259   | 2.6  | 5.2  | @9:30am |
+  | ylic133_2  |0.259   | 2.6  | 5.2  | @9:30 |
 - 2h after the 5x dilution of the dense culture in 10mL YPD
   |   | OD-10X dilution |Titer   |Time|
   |---|---|---|---|
-  | ylic133_2  |0.126   | 1.3  | @11:30am|
-- 5ul of pLL112 plasmid , which has 2290ng/mL 
-# Results
+  | ylic133_2  |0.126   | 1.3  | @11:30|
+  |   | OD-10X dilution |Titer   |Time|
 
+  |   | OD-10X dilution |Titer   |Time|
+  |---|---|---|---|
+  | ylic133_2  |0.239   | 2.4  | @13:30|
+- 5ul of pLL112 plasmid , which has 2290ng/mL
+# Results
+![](../images/17092019-ylic133_2+pLL112-results-contamination.png)
+- 17092019- I found bacterial contamination on the plates :(
+- 17092019- The transformants on the -ura plate are extremely tiny colonies
+- 17092019 - Incubate ylic133-3 to redo transformation 
 # Conclusion

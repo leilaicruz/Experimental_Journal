@@ -18,7 +18,7 @@ To mark temporarily ylic133 in order to be able to select for diploids after the
   |   | OD-10X dilution |Titer   |Time|
   |---|---|---|---|
   | ylic133_2  |0.126   | 1.3  | @11:30|
-  |   | OD-10X dilution |Titer   |Time|
+
 
   |   | OD-10X dilution |Titer   |Time|
   |---|---|---|---|
@@ -28,5 +28,10 @@ To mark temporarily ylic133 in order to be able to select for diploids after the
 ![](../images/17092019-ylic133_2+pLL112-results-contamination.png)
 - 17092019- I found bacterial contamination on the plates :(
 - 17092019- The transformants on the -ura plate are extremely tiny colonies
-- 17092019 - Incubate ylic133-3 to redo transformation 
+- 17092019 - Incubate ylic133-3 to redo transformation
+- 18092019 - The  liquid culture was not dense enough to do the experiment.
+- 19092019 - I diluted the culture 1000x to do transformation next day.
+- 20092019 - Transformation with pLL112 (from a miniprep Ramon did the day before)
+  - pLL112-148ng/ul , I used 10ul for transformation , hence I used 1.5 ug of plasmid
+  - I plated two positive controsl in -ura and all the negative control in -ura. 
 # Conclusion

@@ -35,5 +35,5 @@
 ![](../images/byk832+100ng-pbk549+ade.jpg)
 
 # Conclusion
-- The transformation efficiency was very low compared with the reference one. 
+- The transformation efficiency was very low compared with the reference one. :persevere:
 - We have to streak the colonies on -ade plates and see wether we have only few growth and a lot of growth on -ura (sanity check)

@@ -39,4 +39,4 @@ To mark temporarily ylic133 in order to be able to select for diploids after the
 - I got very small transformed strains which are going to be named: ylic134=ylic133_3+pLL112 (mating type alpha, ura3+)
 - I inoculated transformants colonies into a CSM-URA liquid media and they did not grow , from an overnight culture. :(
 - It seems somehow they loose the plasmid... :pensive:
-- As next step I will transform ylic133 and yll3a as a positive control with pLL112, pLL55 and pLL56, to assess whether is the plasmid or the strain the bottleneck here. 
+- As next step I will transform ylic133 and yll3a as a positive control with pLL112, pLL55 and pLL56, to assess whether is the plasmid or the strain the bottleneck here.

@@ -1,5 +1,5 @@
 
-# Title : 12092019-Transformation of yli133 with the pLL112 plasmid
+# Title : 12092019-Transformation of yli133 with the pLL112 plasmid :ok:
 
 # Date
 12092019-20092019

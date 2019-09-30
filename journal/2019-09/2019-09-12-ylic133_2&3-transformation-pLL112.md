@@ -1,5 +1,5 @@
 
-# Title : 12092019-Transformation of yli133 with the pLL112 plasmid :ok:
+# Title : 12092019-Transformation of ylic133 with the pLL112 plasmid :pensive:
 
 # Date
 12092019-20092019
@@ -14,7 +14,7 @@ To mark temporarily ylic133 in order to be able to select for diploids after the
   |   | OD-10X dilution |Titer   |Dilution factor to OD=0.5   |Time|
   |---|---|---|---|---|
   | ylic133_2  |0.259   | 2.6  | 5.2  | @9:30 |
-  
+
 - 2h after the 5x dilution of the dense culture in 10mL YPD
 -
   |   | OD-10X dilution |Titer   |Time|

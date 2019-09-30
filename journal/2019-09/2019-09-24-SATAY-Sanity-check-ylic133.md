@@ -18,6 +18,9 @@ To ensure that the constructed strain is able to pass the Satay sanity check , a
 
   ![](../images/ade2-supressor-mutations.png)
 - 26092019 - restreaking of different colonies from clone 5 of ylic133, to hopefully clean up the glycerol stock.
+
+   ![](../images/re-streaking-ylic133-5-30092019.png)
+   - 30092019 store one colony from the pink restreaking as new ylic133_5 glycerol stock
 - 27092019 - pBK549 plasmid transformation
   - OD measurements @9:55
 
@@ -31,14 +34,28 @@ To ensure that the constructed strain is able to pass the Satay sanity check , a
   - @10:15 1st incubation until around @14:15 , to reach log phase for transformation.
   - @13:30 OD measurements
 
-  |   | OD-10X dilution |Titer   |Dilution factor to OD=0.5   |Time|
-  |---|---|---|---|---|
-  | ylic133_1  |0.158  | 1.6  | 25.2  | @13:30 |
-  | ylic133_4 (1)  |0.088  |0.9 | 36.8  | @13:30  |
-  | ylic133_4 (2)  |0.140   | 1.4  | 28.2  | @13:30  |
-  | Byk832  |0.063  | 0.34  | 3.4  | @13:30  |
+  |   | OD-10X dilution |Titer   |Time|
+  |---|---|---|---|
+  | ylic133_1  |0.158  | 1.6  |  @13:30 |
+  | ylic133_4 (1)  |0.088  |0.9 |  @13:30  |
+  | ylic133_4 (2)  |0.140   | 1.4  |  @13:30  |
+  | Byk832  |0.063  | 0.34  | @13:30  |
   - I diluted 2x Byk832 down to OD=1.7 because still the rest are not ready to start.
 
-# Results
+  - @14:40 OD measurements
 
+  |   | OD-10X dilution |Titer   |Ready to transform |Time|
+  |---|---|---|---|---|
+  | ylic133_1  |0.34  | 3.4  |yes | @14:40 |
+  | ylic133_4 (1)  |0.114  |1.1 | let's see , should be ~2  | @14:40  |
+  | ylic133_4 (2)  |0.28   | 2.8  | yes | @14:40  |
+  | Byk832  |0.24  | 2.4  | yes | @14:40  |
+
+- 100ng of pBK549 plasmid
+- **Note**: The cells after adding the transformation mix were really clumpy, so they did not properly dissolved in the transformation mix, which can hinder the transformation efficiency.
+- Plating all in -ura+6xADE
+# Results :pensive:
+-30092019 - No colonies in -URA plates , in none of the four strains used :( There is just a loan
 # Conclusion
+- Indeed, it seems the fact that the cells were clumpy place a role on the transformation. This happens to me as well with Byk832 in previous transformations, see [**this transformation**](../2019-07/2019-07-10_Byk832-transformation-pBk549.md)
+- Repeat the transformation , and try to minimize again the time in LiAc and mix every time tha transformation mix on the cells to avoid formation of clumps.

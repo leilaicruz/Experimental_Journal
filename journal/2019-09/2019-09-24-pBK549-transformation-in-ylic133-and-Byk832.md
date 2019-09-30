@@ -1,4 +1,4 @@
-# Title : 24092019- SATAY Sanity check of ylic133 pink biological replicates
+# Title : 24092019- pBK549 transformation on ylic133 for further sanity check in SATAY. :pensive:
 
 # Date
 24092019-
@@ -56,6 +56,7 @@ To ensure that the constructed strain is able to pass the Satay sanity check , a
 - Plating all in -ura+6xADE
 # Results :pensive:
 -30092019 - No colonies in -URA plates , in none of the four strains used :( There is just a loan
+![](../images/30092019-ylic133+pbk549-results-not-good.png)
 # Conclusion
 - Indeed, it seems the fact that the cells were clumpy place a role on the transformation. This happens to me as well with Byk832 in previous transformations, see [**this transformation**](../2019-07/2019-07-10_Byk832-transformation-pBk549.md)
 - Repeat the transformation , and try to minimize again the time in LiAc and mix every time tha transformation mix on the cells to avoid formation of clumps.

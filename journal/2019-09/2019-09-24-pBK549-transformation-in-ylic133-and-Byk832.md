@@ -1,7 +1,7 @@
 # Title : 24092019- pBK549 transformation on ylic133 for further sanity check in SATAY. :pensive:
 
 # Date
-24092019-
+24092019-30092019
 
 # Objective
 To ensure that the constructed strain is able to pass the Satay sanity check , and then I can continue with the further steps, like mating with yEK7a.

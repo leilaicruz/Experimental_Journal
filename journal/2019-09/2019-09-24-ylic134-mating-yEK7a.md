@@ -1,9 +1,9 @@
-#   Title :  <font color='#ee4466'>24092019-Mating of ylic134 with yEK7a :heart:
+#   Title :  <font color='#ee4466'>24092019-Mating of ylic134 with yEK7a :broken_heart:
 
 <font color='black'>
 
 # Date
-24092019-
+24092019-26092019
 
 # Objective
 
@@ -15,5 +15,7 @@
   - I took more colonies from the transformation plate and transfer them grow in CSM-URA
   - I did replica plating of the transformation plate onto a another -ura plate , to check the viability of the transformants on -ura.
 # Results
-
+- The transformation with pLL112 plasmid did not work.
+- No colonies did grow in the replica plate in -URA
 # Conclusion
+- The mating never could happened because I did not get any ylic133+pLL112 cells :(

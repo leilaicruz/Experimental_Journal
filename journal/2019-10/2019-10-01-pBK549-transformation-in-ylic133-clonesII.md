@@ -34,20 +34,28 @@ To ensure that the constructed strain is able to pass the Satay sanity check, an
     - I heated the ssDNA to 95C and then transfered to ice before  I added the 0.1M LiAc , so I could do all steps of LiAc washing and samples separation consecutively.
   - I plated all (200ul) in the selection plates (-URA+6x ADE), both, negative control and transformed cells.
 # Results
-- 031022019 No clonies in the selectiion plates :pensive: I just see 3 colonies in ylic133_1 plate.
+- 031022019 No clonies in the selection plates :pensive: I just see 3 colonies in ylic133_1 plate.
   - Possible causes:
 
     - The plasmid is degraded
         - **check**: I loaded 10ul of plasmid into a gel to see If I have low bands, that could indicate degradation of the plasmid.
          ![](../images/03102019-pBK549-plasmid-gel.png)
+        - **This result implies that plasmid degradation IS NOT THE CAUSE**.
+    - The plasmid was lost
+        - **check**: I restreak one colony I had on the selection plate into a new -URA+6xade plate to see if they actually acquired the plasmid:
+          ![](../images/03102019-one-colony-testing-ylic133+pbk549-to-discard-plasmid-problems.png)
+          - This implies that is **neither the cause**.
     - I used an extremely low amount of plasmid
       - This could be due that I did not vortex the plasmid before using it, and maybe some of it sediment to the bottom, and effectively I took less plasmid than what I thought. Next time I should vortex it anyways.
     - The selection plates are not good i.e. nothing can grow there.
       - **check**: I plated a positive control (yWKD017 and ylic132) on the -ura plate+6x Ade I used for the selection plate.
+        ![](../images/-ura+6xade-03092019-check-positive-control.png)
+      - This growth of positive control on the plate indicates that **the plates ARE NOT THE CAUSE**
     - My reagents of the transformation protocol are not good.
       - Maybe my PEG50% is not well... If the next transformation does not work , I will replace all my reagents for new fresh ones.
+      - I actually replace the LiAc , I did a new 1M stock of 50mL.
 
 
 # Conclusion
-- Still I dont know the cause of why my transformation arent working.
+- Still I dont know the cause of why my transformation arent working, though I discarded multiple causes.
 - I will try again with new plasmid from another bacteria incubation, and after checking that my plates are indeed correct, to discard those factors.

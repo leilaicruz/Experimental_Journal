@@ -1,4 +1,4 @@
-# Title: 10092019- Sanity check of transformants ylic133+pBk549, Byk832+pBk549 to know if they suitable for SATAY. :smile:
+# Title: 09102019- Sanity check of transformants ylic133+pBk549, Byk832+pBk549 to know if they suitable for SATAY. :smile:
 
 # Date
 09102019-11102019
@@ -18,4 +18,4 @@ To investigate the suitability of my engineered yeast strain ylic133 to use it f
 
 # Conclusion
 - Fortunately, my clones of ylic133_5 are good to do SATAY :)
-- The next steps are then transforming this strain (ylic133_5) with pLL112 to be able to cross it with yEk7a and select for all the useful phenotypes , then transform each of them with the pBK549 plasmid (after returning from Cuba :earth_americas: :sun_with_face:). 
+- The next steps are then transforming this strain (ylic133_5) with pLL112 to be able to cross it with yEk7a and select for all the useful phenotypes , then transform each of them with the pBK549 plasmid (after returning from Cuba :earth_americas: :sun_with_face:).

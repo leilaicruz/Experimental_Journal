@@ -22,7 +22,5 @@ geometry: margin=0.5in
 bibliography: bibliography.bib
 autoEqnLabels: true
 cref: true
-export_on_save:
-  pandoc: true
 crossref: true
 ---

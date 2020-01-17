@@ -58,12 +58,26 @@ This represents the 3% of all essential genes in WT interacts with Bem1.
 
 - How many bem1 synthetic lethals are also essential genes in WT?
 
-Insight 1: Out of the 34 essential genes that intersect with Bem1 interactors, 13 are Bem1 synthetic lethals (~ 1/3 of them ). ***This means that 21 essential genes in WT looses their essentiality in dbem1 background***.
+Insight 1: Out of the 34 essential genes that intersect with Bem1 interactors, 13 are Bem1 synthetic lethals (~ 1/3 of them ). ***This means that at least 21 essential genes in WT looses their essentiality in dbem1 background***.
 
-Insight 2: 13 genes out of 38 bem1 synthetic lethals are also WT essential genes (~ 1/3 of them). ***This means  that 15 synthetic lethals genes of bem1 have gained essentiality in this background***.
+Insight 2: 13 genes out of 38 bem1 synthetic lethals are also WT essential genes (~ 1/3 of them). ***This means  that 25 synthetic lethals genes of bem1 have gained essentiality in this background***.
 
   ![Essential genes that are also Bem1 synthetic lethals](../images/bem1-synthetic-lethals-that-are-also-essential-genes-in-WT.png){#fig:intersection-with-Bem1-lethals}
 
+![Summary of the shift of essentiality when deleting Bem1](../images/shift-essentiality.png)
+
 ## Conclusion
 
-- In dbem1 background some essential genes from WT background losses their essentiality(21/34), others gain essentiality (15/38), and other remains essential in both backgrounds(13=intersection of 34 essential genes and 38 bem1 synthetic lethals).
+-  Most of the genes that are essential in WT are not synthetic lethals of Bem1.
+    -  Is this because they can not be included in the SGA assay? hence they could never pop up because they were never measured...
+    -  Following this logic , how can we explained the ones are conserved? this 1% of genes, which includes: cdc42, cdc24 and cdc28. 
+
+## Notes
+ It is important to note that the synthetic lethals were measured with a subset of nonessential genes from WT.
+
+
+From " *A. Baryshnikova et al., “Chapter 7 - Synthetic Genetic Array (SGA) Analysis in Saccharomyces cerevisiae and Schizosaccharomyces pombe.*”" :
+
+> This chapter focuses on ***the application ofSGA analysis to generate double mutant strains and identify genetic interactions among nonessential deletion mutants***.
+
+> However, SGA can also be applied to examine synthetic genetic interactions involving essential genes. For example, ***an SGA query strain can be crossed to the Tet-promoter collection (yTHC, Open Biosystems), double mutants can be selected and scored for growth defects in the presence of doxycycline, which downregulates the expression ofthe essential genes*** (Davierwala et al., 2005). Other essential gene mutant collections (Ben-Aroya et al., 2008; Schuldiner et al., 2005) are now available in arrayed formats and are amenable to genetic interaction analyses using SGA technology (Costanzo et al., in press).

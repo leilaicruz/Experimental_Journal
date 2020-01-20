@@ -41,7 +41,8 @@ To set up a consistent FACs experiment with the microscopy experiments I did wit
   - The location in the genome at which the gal promoter was inserted can have a strong effect on the expression pattern of the gal promoter (*Ramon feedback*). Hence we should not compare different studies of the Gal1 promoter with ours if the integration in the genome is in a different location and also if it is a plasmid or not.
   - We should compare systematically the Gal1p expression pattern of the strains that has the sfGFP (Werner strains) and the mneonGreen ones (Ramon/Miranda strains), because they have the same type of genomic integration of the Gal1 promoter.
 
-    - [ ] **Ask Reza for his data with WT+mneongreen to comapre with mine**
+    - [x] **Ask Reza for his data with WT+mneongreen to compare with mine**
+      - Look for the postprocessing results, in this [folder](N:\tnw\BN\LL\Shared\Leila\Images-postprocessing-FACS-REZA)
 - Follow the same protocol as I followed for the microscopy measurements
 
 ![Experimental Design for the microscopy measurements](../images/experimental-design-microscopy.png){#fig:experimental-design}

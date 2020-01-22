@@ -23,4 +23,5 @@ bibliography: bibliography.bib
 autoEqnLabels: true
 cref: true
 crossref: true
+colorlinks: true
 ---

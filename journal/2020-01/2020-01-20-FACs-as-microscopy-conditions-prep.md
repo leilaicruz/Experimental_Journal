@@ -74,18 +74,19 @@ Insights from the Gal1 promoter
 
     - **Equipment-Model**: BDFACSCelesta
     - **Lasers**: Alexa Fluor 488 at 495V
-    - **Flow Rate**: 1ul/sec
-    - **Sample volume**: 180ul
+    - **Flow Rate**: 2ul/sec
+    - **Sample volume**: 130ul
     - **Plate**: 96 well plate with flat bottom
-    - **# of events per well**: 30000
+    - **# of events per well**: 10000
     - **FSC threshold**:20000
     - **FSC voltage**: 407V
     - **SSC volatge**: 275V
-    - **Mixing volume**: 90ul
+    - **Mixing volume**: 65ul
     - **Mixing speed**: 200ul/sec
-    - **Nr. of mixes**: 2
+    - **Nr. of mixes**: 5
 
 --------------
+
 **Actual procedure**
 
 - 1st Incubation , at 14:15 in 21012020 in 2% Gal.
@@ -96,6 +97,41 @@ Insights from the Gal1 promoter
   - I washed two times the 1st incubation in CSM and CSM-met for ywd024 and ywd038 with 2% Raff, with no GAL.
   - I put the same amount of cells per strain in all conditions, aka I pipetted the same volume of a concentrated cell culture (from 5ml to ~400ul) in every tube of the same strain.
   - For ywkd024 I could not pipette any cell in 0.1% Gal and 0.2% Gal, because I ran out of cells :( but this is not a big problem anyways.
+- 23012020: I diluted ywkd065 and ywkd070 50x at 10:30 , because they were a bit too dense for FACs. The rest of the strains were not dense at all.
+- at 12:30 Inoculate 200ul in each well of the 96 well plate according the layout (see @fig:plate-design).
+
 ## Results
 
+### Plate data
+
+![Whole plate data](../images/Whole-plate-23012020.png){#fig:whole-plate width=100% height=50% }
+
+### Box plots
+
+![Boxplots of the raw data](../images/Boxplots_raw_data_exp_003.png){#fig:box-plots width=100% height=100% }
+
+### Histograms
+
+![Histograms per conditions](../images/Histograms_raw_data_exp_003.png){#fig:histograms width=100% height=100% }
+
+### Medians per strain
+
+![dbem1](../images/dbem1-003.png){#fig:dbem1}
+
+![dbem1dbem3](../images/dbem1dbem3-003.png){#fig:dbem1dbem3}
+
+![WT+GAl](../images/WT_gal-003.png){#fig:wt_gal}
+
+![Soldner strain-ywkd024](../images/Soldner-003.png){#fig:024}
+
 ## Conclusion
+
+- Basically the dynamic range of the promoter did not change from previous experiments, no  more than 2.5 fold change.
+- Now , it can be seen more difference between dbem1-dbem1dbem3-WT+gal in their expression.
+  - dbem1+Gal did not change too much the cdc42 expresion across galactose concentrations, as the other do.
+  - Interestingly the dynamic range, from 0% gal to 2% Gal, increases from the dbem1 to the WT+GAl, as follows:
+    - dbem1: 1.29 fold change
+    - dbem1dbem3: 1.58 fold change
+    - WT+gal:  2.18 fold change
+    - Soldner strain: 2.64 fold change
+    - ywkd038-cdc42 reference: 1.22 fold change (should be 1)

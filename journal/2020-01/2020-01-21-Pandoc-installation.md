@@ -14,7 +14,7 @@ figPrefix:
   - "Figs."
 secPrefix:
   - "Section"
-  - "Sections"
+  - "Sections" 
 fontsize: 12pt
 geometry: margin=0.5in
 autoEqnLabels: true

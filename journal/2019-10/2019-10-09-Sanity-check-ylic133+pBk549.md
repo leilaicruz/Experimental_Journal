@@ -1,3 +1,31 @@
+---
+title: "09102019- Sanity check of transformants"
+output: pdf_document
+documentclass: article
+classoption: twocolumn
+pdf_document:
+latex_engine: pdflatex
+toc: true
+lof: true
+numberSections: true
+highlight: tango
+sectionsDepth: 3
+chapters: True
+figPrefix:
+  - "Fig."
+  - "Figs."
+secPrefix:
+  - "Section"
+  - "Sections"
+fontsize: 12pt
+geometry: margin=0.5in
+autoEqnLabels: true
+cref: true
+crossref: true
+colorlinks: true
+---
+
+
 # Title: 09102019- Sanity check of transformants ylic133+pBk549, Byk832+pBk549 to know if they suitable for SATAY. :smile:
 
 # Date

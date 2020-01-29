@@ -29,7 +29,7 @@ crossref: true
 # Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains.
 
 ## Date
-20012020-23012020
+28012020-30012020
 
 ## Objective
 To be able to compare the results of the FACs with the microscopy conditions.
@@ -89,61 +89,35 @@ Insights from the Gal1 promoter
 
 **Actual procedure**
 
-- 1st Incubation , at 14:15 in 21012020 in 2% Gal.
-  - Notes after this 1st incubation:
-    - Neither ywkd001, ywkd038 and ywkd024 had enough cells after 24 hours of incubation in 2% Gal in 36C. (?)
-
-- 2nd incubation, at 15:00 in 22012020 in the respective gal concentrations.
-  - I washed two times the 1st incubation in CSM and CSM-met for ywd024 and ywd038 with 2% Raff, with no GAL.
-  - I put the same amount of cells per strain in all conditions, aka I pipetted the same volume of a concentrated cell culture (from 5ml to ~400ul) in every tube of the same strain.
-  - For ywkd024 I could not pipette any cell in 0.1% Gal and 0.2% Gal, because I ran out of cells :( but this is not a big problem anyways.
-- 23012020: I diluted ywkd065 and ywkd070 50x at 10:30 , because they were a bit too dense for FACs. The rest of the strains were not dense at all.
-- at 12:30 Inoculate 200ul in each well of the 96 well plate according the layout (see @fig:plate-design).
+- 1st Incubation , at 14:00 in 28012020 in 2% Gal.
+  - Any tube was dense after 24 hours of incubation in 36C .
+  - The most dense for ywkd065a.
+  - **Note**: I did the washing step with CSM for ALL strains, including ywkd024 and ywkd038, by mistake. I hope this do not cause their future death.
+- 2nd incubation , at 14:20 in 29012020 in the respective galactose concentrations.
+  - I added to each 5ml tube , 10 ul of culture, already resuspended down to 80ul , 320ul and 1.2mL. The different volumes are to account for differences in densities (size of the pellet). The 1.2mL was used for ywkd065, and the 80ul was used for ywkd024, ywkd038 and ywkd001. The 320ul for ywkd069 and ywkd070. 
 
 ## Results
 
 ### Plate data
 
-![Whole plate data](../images/Whole-plate-23012020.png){#fig:whole-plate width=100% height=50% }
+
 
 ### Box plots
 
-![Boxplots of the raw data](../images/Boxplots_raw_data_exp_003.png){#fig:box-plots width=100% height=100% }
 
 ### Histograms
 
-![Histograms per conditions](../images/Histograms_raw_data_exp_003.png){#fig:histograms width=100% height=100% }
+
 
 ### Medians per strain
 
-![dbem1](../images/dbem1-003.png){#fig:dbem1}
 
-![dbem1dbem3](../images/dbem1dbem3-003.png){#fig:dbem1dbem3}
-
-![WT+GAl](../images/WT_gal-003.png){#fig:wt_gal}
-
-![Soldner strain-ywkd024](../images/Soldner-003.png){#fig:024}
 
 ### Cdc42 relative expression
 
-![Cdc42 relatve expression to ywkd038 (ref)](../images/Cdc42-expression-003.png){#fig:cdc42-expression}
 
 ### Total counts
 
-The maximum amount of counts, or cells that the FAcs was set to analyse was 10000, which corresponds with an OD=~ 0.1. Assuming that OD=1 is around 10$^6$ cells in 1mL. So in 100ul , for OD=1, it has to have around 10$^5$ cells. Hence 10000 (10$^4$) cells will be an OD=~0.1.
 
-![Total counts of cells , taking 130ul of volume to analyze. Note that dbem1dbem3 and WT+gal strain were diluted 50X 2 hours before measuring. For 0% it  WAS NOT DILUTED.](../images/Total_counts_exp_003.png){#fig:counts}
-
-- Only dbem1dbem3, WT+gal  has reached the maximum of counts for 0% Gal, while dbem1 did not. This indicates that the leftover of Cdc42 from the previous 2% gal incubation was not enough for dbem1 to keep growing.
 
 ## Conclusion
-
-- Basically the dynamic range of the promoter did not change from previous experiments, no  more than 2.5 fold change.
-- Now , it can be seen more difference between dbem1-dbem1dbem3-WT+gal in their expression.
-  - dbem1+Gal did not change too much the cdc42 expresion across galactose concentrations, as the other do.
-  - Interestingly the dynamic range, from 0% gal to 2% Gal, in average increases from the dbem1 to the WT+GAl, as follows:
-    - dbem1: 1.29 fold change
-    - dbem1dbem3: 1.58 fold change
-    - WT+gal:  2.18 fold change
-    - Soldner strain: 2.64 fold change
-    - ywkd038-cdc42 reference: 1.22 fold change (should be 1)

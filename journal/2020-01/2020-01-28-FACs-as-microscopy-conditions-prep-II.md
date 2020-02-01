@@ -26,7 +26,7 @@ crossref: true
 
 
 
-# Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains.
+# Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains (II).
 
 ## Date
 28012020-30012020
@@ -94,30 +94,56 @@ Insights from the Gal1 promoter
   - The most dense for ywkd065a.
   - **Note**: I did the washing step with CSM for ALL strains, including ywkd024 and ywkd038, by mistake. I hope this do not cause their future death.
 - 2nd incubation , at 14:20 in 29012020 in the respective galactose concentrations.
-  - I added to each 5ml tube , 10 ul of culture, already resuspended down to 80ul , 320ul and 1.2mL. The different volumes are to account for differences in densities (size of the pellet). The 1.2mL was used for ywkd065, and the 80ul was used for ywkd024, ywkd038 and ywkd001. The 320ul for ywkd069 and ywkd070. 
+  - I added to each 5ml tube , 10 ul of culture, already resuspended down to 80ul , 320ul and 1.2mL. The different volumes are to account for differences in densities (size of the pellet). The 1.2mL was used for ywkd065, and the 80ul was used for ywkd024, ywkd038 and ywkd001. The 320ul for ywkd069 and ywkd070.
+- At 13:30 the experiment started.
 
 ## Results
 
 ### Plate data
 
+![Overview of the data for the whole plate](../images/Whole-plate-30012020.png){#fig:plate width=50X}
 
 
 ### Box plots
 
-
-### Histograms
-
+![Boxplots of all the dataset per strain](../images/Boxplots_raw_data_exp_004.png){#fig:Boxplots width=50X}
 
 
-### Medians per strain
+### Measure per strain
 
+The measure per strain consist on computing the geometric mean of each technical replicate, and then compute the average of these values to give an estimate per strain per condition.
+
+![Arithmetic mean of the geometric means per technical replicate.](../images/Green-Mean-channel_004.png){#fig:means width=50X}
+
+To know if these drops were real or due to the some weird behaviour of the FACs machine, I measure the OD of the cells (on 31012020 at 13:30) that luckily they were still in their incubation tubes, on the lab  bench , at room temperature, without shaking.
+
+I expected to see also a drop in their optical density in the same galactose concentrations were the drop in expression is perceived, if these drops are real, that is, due to the little concentration of cells.
+
+![Optical density of the same cell cultures after 24 hours of FACs measurement. They were in room temperature without shaking, that is, on the lab bench. ](../images/OD-exp_004-after24h-in-room-temperature.png){#fig:OD width=50X}
+
+Indeed :), there were also drop in the optical density on those galactose concentrations, namely, 0.02% , 0.08% and 2% for the WT+Gal strain. I also see that the mutants dbem1 and dbem1dbem3 were really miserable like I saw in the expression.
+
+Maybe something weird happened from the incubation... (??)
 
 
 ### Cdc42 relative expression
 
+![Normalization of each value to the value of ywkd038 to see the overexpression/underexpression pattern.](../images/cdc42-relative-channel_004.png){#fig:relative-to-cdc42 width=50X}
 
 ### Total counts
 
+![Total counts measured by the FACs for one technical replicate of each strain per condition](../images/Total_counts_exp_004.png){#fig:total-counts width=50X}
 
+### Correlation between the GFP and sfGFP fluorophuores
+
+![Out of range for comparing the GFP with the sfGFP expression at 2% between ywkd024 and ywkd065. The middle shaded area represents the lines y=1.5x , y=x and y=0.6x](../images/Correlation-between-sfGFP-GFP-fluorophuores-exp_004-at-2%-gal.png){#fig:correlation-fluorophuores width=50X}
+
+![Decoupled visualization of the same dataset of @fig:correlation-fluorophuores](../images/sfGFP-GFP-fluorophuores-exp_004-at-2%-gal.png)
+
+![Correlation of ywkd065 at 0.1% galactose against ywkd024 in the same galactose concentration. Notice that here some points fall inside the shaded area, in contrast with 2% galactose.](../images/Correlation-between-sfGFP-GFP-fluorophuores-exp_004-at-0.1%-gal.png){#fig:correlation-in-0.1 width=50X}
 
 ## Conclusion
+
+- This dataset had some weird/unexpected behaviour:
+  - The wild type expression is not steadily increasing with galactose concentrations. At 0.08% and 2% there are "drops" of expression.(See @fig:means)
+  - The mutants dbem1 and dbem1dbem3 have extremely low expression this time that never surpasses the native level. (See @fig:relative-to-cdc42)

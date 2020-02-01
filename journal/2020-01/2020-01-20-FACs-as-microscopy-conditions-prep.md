@@ -26,7 +26,7 @@ crossref: true
 
 
 
-# Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains.
+# Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains. (I)
 
 ## Date
 20012020-23012020

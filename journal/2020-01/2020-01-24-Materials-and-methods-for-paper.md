@@ -54,7 +54,7 @@ As it is shown in @fig:correlation, most of the values lie between the y=1.5x an
 This is highly important in our study because we use a native Cdc42-GFP tagged strain as a reference for the Cdc42-sfGFP tagged strain that has the GAl1 promoter regulating this production.
 
 
-![Correlation between both the GFP and sfGFP fluorophuores. This data is from 2% galactose from the ywkd024 and ywkd065 strain.](../images/Correlation-between-sfGFP-GFP-fluorophuores.png){#fig:correlation width=50X height=50X}
+![Correlation between both the GFP and sfGFP fluorophuores. This data is from 2% galactose from the ywkd024 and ywkd065 strain.](../images/Correlation-between-sfGFP-GFP-fluorophuores.png){#fig:correlation width=80X height=80X}
 
 
 #### No growth for longer times in 0% galactose:
@@ -65,3 +65,8 @@ Although,in the setup used in this study, we could measured cells in 0% galactos
 
 We let them grow for 48 hours in 0% galactose from the glycerol stock, then we did a flow cytometry measurement and we found there was no cells in any well.
 This was reflected in the lack of values for those wells containing 0% galactose.
+
+#### Data analysis
+
+We used a Python library called FlowCytometryTools(https://pypi.org/project/FlowCytometryTools/) for the postprocessing of data.
+For the analysis, we import the raw data and visualize the FSC vs SSC to define our gates. We gated the data that has similar values of FSC and SSC. We exclude the points with large values on both of them, to avoid analyzing debris or clumps of cells.. Per experiment we compute the geometric mean per replicate, as an individual measure of the distribution of intensities. The final value of the intensity per strain per condition will be the arithmetic mean of all the geometric mean values per replicate. The standard error will be the error of this mean, that will reflect the variability across replicates. After the 3 experiments , we compute the arithmetic mean  of the respective means values per experiment per strain per condition, and the standard error is the standard error of this global arithmetic mean.

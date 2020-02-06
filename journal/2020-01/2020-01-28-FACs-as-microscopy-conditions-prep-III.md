@@ -25,10 +25,11 @@ crossref: true
 ---
 
 
-# Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains. (I)
+
+# Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains (III).
 
 ## Date
-20012020-23012020
+04022020-06022020
 
 ## Objective
 To be able to compare the results of the FACs with the microscopy conditions.
@@ -88,61 +89,52 @@ Insights from the Gal1 promoter
 
 **Actual procedure**
 
-- 1st Incubation , at 14:15 in 21012020 in 2% Gal.
-  - Notes after this 1st incubation:
-    - Neither ywkd001, ywkd038 and ywkd024 had enough cells after 24 hours of incubation in 2% Gal in 36C. (?)
+- 1st Incubation , at 9:00 in 04022020 in 2% Gal.
+    - With 10ul of thawed and vortexed glycerol stocks, because [last experiment](../2020-01/2020-01-28-FACs-as-microscopy-conditions-prep-II.md) had some trouble with the incubation from this step, so perhaps I did not put many cells in the tubes from the frozen glycerol stock.
+    - Remarks from 1st incubation:
+      - ywkd070 grew very miserably
+      - ywkd069 was denser than ywkd070
+- 2nd incubation , at 11:45 in 05022020 in the respective galactose concentrations.
+  - remarks from 2nd incubation:
+    - I miscalculated the amount of ywkd024 cells to equally distribute among galactose concentrations, and I could not reach the 2% gal tube, so I took from the already prepared 0.2% gal tube into the 2%. So, I expect a small amount of cells from 2% gal, when measuring, because of this.
+- Experiment : at 13:00
+  - Before the experiment:
+    - I had to dilute ywkd065 and ywkd024 20X because of their high density after 24h of incubation.
+    - I did not dilute the 0% case of ywkd065 niether the 2% case for ywkd024.
+    - I diluted them with CSM and CSM-met without any galactose, basically because it was not necessary taking into acount the time from the dilution (12:30) to the measuring (13:00).
 
-- 2nd incubation, at 15:00 in 22012020 in the respective gal concentrations.
-  - I washed two times the 1st incubation in CSM and CSM-met for ywd024 and ywd038 with 2% Raff, with no GAL.
-  - I put the same amount of cells per strain in all conditions, aka I pipetted the same volume of a concentrated cell culture (from 5ml to ~400ul) in every tube of the same strain.
-  - For ywkd024 I could not pipette any cell in 0.1% Gal and 0.2% Gal, because I ran out of cells :( but this is not a big problem anyways.
-- 23012020: I diluted ywkd065 and ywkd070 50x at 10:30 , because they were a bit too dense for FACs. The rest of the strains were not dense at all.
-- at 12:30 Inoculate 200ul in each well of the 96 well plate according the layout (see @fig:plate-design).
+        > Even for the case of 2 hours difference, because they are not the first to be measured in the FACs machine due to the well position , no degradation should occur via degradation of Cdc42-GFP or CDC42-sfGFP or via division.
+
 
 ## Results
 
-### Plate data
 
-![Whole plate data](../images/Whole-plate-23012020.png){#fig:whole-plate width=100% height=50% }
+### Plate data
+![Whole plate for 02062020 measurement](../Images/Whole-plate-02062020.png){#fig:plate}
+
 
 ### Box plots
 
-![Boxplots of the raw data](../images/Boxplots_raw_data_exp_003.png){#fig:box-plots width=100% height=100% }
+![Boxplots of all the data](../images/Boxplots_raw_data_exp_005.png){#fig:boxplots width=60% height=60%}
 
-### Histograms
 
-![Histograms per conditions](../images/Histograms_raw_data_exp_003.png){#fig:histograms width=100% height=100% }
+### Measure per strain
 
-### Medians per strain
+![Non normalized histogram for ywkd024 fold change from 0% gal to 2% gal](../images/Non-normalized-024-hist-fold-change.png){#fig:024-hist width=30%}
 
-![dbem1](../images/dbem1-003.png){#fig:dbem1}
+![Non normalized histogram for ywkd065 fold change from 0% gal to 2% gal](../images/Non-normalized-065-hist-fold-change.png){#fig:065-hist width=30%}
 
-![dbem1dbem3](../images/dbem1dbem3-003.png){#fig:dbem1dbem3}
-
-![WT+GAl](../images/WT_gal-003.png){#fig:wt_gal}
-
-![Soldner strain-ywkd024](../images/Soldner-003.png){#fig:024}
+![Non normalized histogram for ywkd069 fold change from 0% gal to 2% gal](../images/Non-normalized-069-hist-fold-change.png){#fig:069-hist width=30%}
 
 ### Cdc42 relative expression
+ ![Relative cdc42 expression compared to ywkd038](../images/Cdc42-green-channel-scaled-005.png){#fig:cdc42-scalling-005 width=50%}
 
-![Cdc42 relatve expression to ywkd038 (ref)](../images/Cdc42-expression-003.png){#fig:cdc42-expression}
+### Correlation between the GFP and sfGFP fluorophuores
 
-### Total counts
-
-The maximum amount of counts, or cells that the FAcs was set to analyse was 10000, which corresponds with an OD=~ 0.1. Assuming that OD=1 is around 10$^6$ cells in 1mL. So in 100ul , for OD=1, it has to have around 10$^5$ cells. Hence 10000 (10$^4$) cells will be an OD=~0.1.
-
-![Total counts of cells , taking 130ul of volume to analyze. Note that dbem1dbem3 and WT+gal strain were diluted 50X 2 hours before measuring. For 0% it  WAS NOT DILUTED.](../images/Total_counts_exp_003.png){#fig:counts}
-
-- Only dbem1dbem3, WT+gal  has reached the maximum of counts for 0% Gal, while dbem1 did not. This indicates that the leftover of Cdc42 from the previous 2% gal incubation was not enough for dbem1 to keep growing.
+![Correlation between sfGFP and GFP fluorophuores exp_005 at 0.1%-gal](../images/Correlation-between-sfGFP-GFP-fluorophuores-exp_005-at-0.1%-gal.png){#fig:correlation width=50%}
 
 ## Conclusion
 
-- Basically the dynamic range of the promoter did not change from previous experiments, no  more than 2.5 fold change.
-- Now , it can be seen more difference between dbem1-dbem1dbem3-WT+gal in their expression.
-  - dbem1+Gal did not change too much the cdc42 expresion across galactose concentrations, as the other do.
-  - Interestingly the dynamic range, from 0% gal to 2% Gal, in average increases from the dbem1 to the WT+GAl, as follows:
-    - dbem1: 1.29 fold change
-    - dbem1dbem3: 1.58 fold change
-    - WT+gal:  2.18 fold change
-    - Soldner strain: 2.64 fold change
-    - ywkd038-cdc42 reference: 1.22 fold change (should be 1)
+- In this experiment the WT+pGal behaves more as expected than in experiment 004.
+- The ywkd070 behaves very weirdly, it did not grow form the first incubation. I dont know why. Also ywkd038 and ywk001 have very miserably growth, in 36C.
+- The correlation between GFP and sfGFP, observed in @fig:correlation, shows that when we are dividing the pGal-sfGFP expresion with the native CC42-GFP we are underestimating the final result because the GFP intensity is slightly brighter than the sfGFP.

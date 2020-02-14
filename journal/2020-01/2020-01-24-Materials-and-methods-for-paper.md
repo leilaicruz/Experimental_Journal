@@ -40,7 +40,9 @@ The yeast strains used in this study were first incubated in 2% Galactose at 36C
 [^1]: This was the incubation temperature used for the population growth experiments, were we could observe a bigger phenotype across the tested strains. Since, we want to use the same galactose concentrations as used in the population growth study, we needed to be in the same regime by keeping the same incubation conditions in all the experiments.
 
 #### Flow cytometry specifications:
-For the flow cytometry experiments, we used the BDFACSCelesta model. For the lasers, we used the wavelength of 488 to excite the cells with a voltage of 495V. The plate we used was a flat bottom 96 well plate. Each well was filled with a volume of 200 ul of cell culture. We used 407V for the *Forward Scattering* (FSC) voltage, and 275V for the *Side Scattering* (SSC) voltage.
+For the flow cytometry experiments, we used the BDFACSCelesta model. For the lasers, we used primary laser (argonion laser 488 nm) to excite the cells with a voltage of 495V. The plate we used was a flat bottom 96 well plate. Each well was filled with a volume of 200 ul of cell culture. We used 407V for the *Forward Scattering* (FSC) voltage, and 275V for the *Side Scattering* (SSC) voltage. Each event for the FSC was acquired if the voltage signal surpassed the 20000 value. 
+
+**ADD THE CALIBRATION KIT USED BEFORE MEASURING-ASK DIEGO**
 
 ## Controls
 

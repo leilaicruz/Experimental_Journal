@@ -1,3 +1,30 @@
+---
+title: "11072019-ylic132-1 and ylic132-2  transformation with the OEP2 "
+output: pdf_document
+documentclass: article
+classoption: onecolumn
+pdf_document:
+latex_engine: pdflatex
+toc: true
+lof: true
+numberSections: true
+highlight: tango
+sectionsDepth: 3
+chapters: True
+figPrefix:
+  - "Fig."
+  - "Figs."
+secPrefix:
+  - "Section"
+  - "Sections"
+fontsize: 12pt
+geometry: margin=0.5in
+autoEqnLabels: true
+cref: true
+crossref: true
+colorlinks: true
+---
+
 # Title : 11072019-ylic132-1 and ylic132-2  transformation with the OEP2 :white_check_mark:
 
 # Date

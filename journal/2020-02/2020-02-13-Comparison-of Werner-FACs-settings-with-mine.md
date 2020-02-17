@@ -60,14 +60,63 @@ To understand what happen to the output fluorescence signal if the settings are 
 
 ## Results
 
-![](../images/Non-normalized-hist-14022020.png)
-![](../images/Non-normalized-bead-leila-area-14022020.png){width=50%}![](../images/Non-normalized-bead-werner-area-14022020.png){width=50%}
+### Doublet correction
+ From [this website](https://expert.cheekyscientist.com/how-to-perform-doublet-discrimination-in-flow-cytometry/)
 
-![Considering Leila settings to normalize](../images/Ratio-mean-comparison-leila-settings-14022020.png){#fig:mean-leila}
+> Notice the differences between the doublet pulse and
+the single particle pulse: **both the area and the width of
+the doublet pulse are larger than the single cell’s
+(because two cells spend longer passing through a laser
+beam than one cell) but the heights of the two pulses
+are very close, if not identical.** We can take advantage of
+these observations to parse out which pulses belong to
+doublets and which belong to true single events in the
+data set.
+>
+The magnitude of difference in any pulse parameter
+between a doublet and single event is not large, and
+**the resolution of linear scale is necessary to be able to
+accurately identify doublets to exclude.** This
+requirement precludes most fluorescent parameters,
+which are typically scaled logarithmically, leaving
+forward and side scatter (which are coincidentally also
+nice and bright signals) as the best choices.
 
-![Considering Werner settings to normalize](../images/Ratio-mean-comparison-werner-settings-14022020.png){#fig:mean-werner}
+> One important tip: **if you are using BD “digital” FACSDiva instrumentation, the pulse width parameter is not really measured, but is calculated from the pulse area. Therefore, in order to ensure an accurate doublet exclusion gate, be sure to calibrate the Area Scaling Factor associated with the doublet discrimination parameter if you intend to use the width pulse parameter for doublet exclusion.**
+
+So, what we shuld plot is FSC-H vs FSC-A and the same for SSC-H vs SSC-A. In our case this corresponds to:
+
+![Strain ywkd024, the red color indicates the gate, that fall inside the diagonal, to ensure single cells](../images/024-doublet-correction-14022020.png){#fig:024-doublet width=80%}
+
+
+![Strain ywkd038,the red color indicates the gate, that fall inside the diagonal, to ensure single cells](../images/038-doublet-correction-same-gate-of-024-14022020.png){#fig:038-doublet width=80%}
+
+![Strain ywkd001,the red color indicates the gate, that fall inside the diagonal, to ensure single cells](../images/001-doublet-correction-same-gate-of-024-14022020.png){#fig:001-doublet width=80%}
+
+### Histograms
+![Non normalized non gated data histograms](../images/Non-normalized-hist-non-gated-data-14022020.png){#fig:hist width=80%}
+
+![Non normalized  gated data histograms](../images/Non-normalized-hist-gated-data-14022020.png){#fig:hist-gated width=80%}
+
+### Beads profile
+![Beads profile](../images/Normalized-beads-profile-14022020.png){#fig:beads-profile width=80%}
+
+### Fold change after autofluorescence removal with/without doublet correction
+
+![Gated data after the doublet correction considering Leila settings to normalize](../images/Ratio-mean-gated-data-doublet-correction-leila-settings-14022020.png){#fig:mean-gated-leila width=50%}
+
+![Non gated data after the doublet correction considering Leila settings to normalize](../images/Ratio-mean-non-gated-data-doublet-correction-leila-settings-14022020.png){#fig:mean-leila width=50%}
+
+![Gated data after the doublet correction considering Werner settings to normalize](../images/Ratio-mean-gated-data-doublet-correction-werner-settings-14022020.png){#fig:mean-gated-werner width=50%}
+
+![Gated data after the doublet correction considering Werner settings to normalize](../images/Ratio-mean-non-gated-data-doublet-correction-werner-settings-14022020.png){#fig:mean-werner width=50%}
 
 ## Conclusion
 
 - The settings of Werner , what does is to shift the signal to the left including the signal from the beads.
-- After the analysis of the height and the area output from the GFP output pulse , we can say that we can see 7 fold variation among the means of intensities when taking the height measure as the intensity signal. 
+- After the analysis of the height and the area output from the GFP output pulse , we can say that we can see 7 fold variation among the means of intensities when taking the height measure as the intensity signal.
+- The doublet correction could help us to more accurately estimate the expression from single cells.
+  - To avoid clumps of cells we should keep th edensity low and sonicate the cells!!
+- Still there are some unclear points:
+  - In order to take into account the height as the most informative parameter for the fluorescence of each cell, we should be able to see the 3 peaks of the calibration beads in the height channel!! Which we dont see with these settings, only in the area channel is where we see the three peaks.
+  - However, still the height channel looks more promosing than the area channel because the shape of the distributions look more log-normal distributed ,as we expect for genetic expression distributions.

@@ -24,7 +24,7 @@ cref: true
 crossref: true
 ---
 
-# Title : Comparison between the fAcs dettings used for Werner in 2017 with the ones I am using currently.
+# Title : Comparison between the fAcs settings used for Werner in 2017 with the ones I am using currently.
 
 ## Date
 13022020-14022020
@@ -105,11 +105,11 @@ So, what we shuld plot is FSC-H vs FSC-A and the same for SSC-H vs SSC-A. In our
 
 ![Gated data after the doublet correction considering Leila settings to normalize](../images/Ratio-mean-gated-data-doublet-correction-leila-settings-14022020.png){#fig:mean-gated-leila width=50%}
 
-![Non gated data after the doublet correction considering Leila settings to normalize](../images/Ratio-mean-non-gated-data-doublet-correction-leila-settings-14022020.png){#fig:mean-leila width=50%}
+![Non gated data  considering Leila settings to normalize](../images/Ratio-mean-non-gated-data-doublet-correction-leila-settings-14022020.png){#fig:mean-leila width=50%}
 
 ![Gated data after the doublet correction considering Werner settings to normalize](../images/Ratio-mean-gated-data-doublet-correction-werner-settings-14022020.png){#fig:mean-gated-werner width=50%}
 
-![Gated data after the doublet correction considering Werner settings to normalize](../images/Ratio-mean-non-gated-data-doublet-correction-werner-settings-14022020.png){#fig:mean-werner width=50%}
+![Non Gated data  considering Werner settings to normalize](../images/Ratio-mean-non-gated-data-doublet-correction-werner-settings-14022020.png){#fig:mean-werner width=50%}
 
 ## Conclusion
 
@@ -119,4 +119,4 @@ So, what we shuld plot is FSC-H vs FSC-A and the same for SSC-H vs SSC-A. In our
   - To avoid clumps of cells we should keep th edensity low and sonicate the cells!!
 - Still there are some unclear points:
   - In order to take into account the height as the most informative parameter for the fluorescence of each cell, we should be able to see the 3 peaks of the calibration beads in the height channel!! Which we dont see with these settings, only in the area channel is where we see the three peaks.
-  - However, still the height channel looks more promosing than the area channel because the shape of the distributions look more log-normal distributed ,as we expect for genetic expression distributions.
+  - However, still the height channel looks more promesing than the area channel because the shape of the distributions look more log-normal distributed ,as we expect for genetic expression distributions.

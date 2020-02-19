@@ -41,6 +41,20 @@ crossref: true
 > Pros: less PCRs
 
 > Cons: I have to do two genomic preps.
+- The strategy is to delete *nrp1* using the HYGRO cassette and *bem2* in the leu2 locus as Liedewij has in her strains, in my ylic133 strain.
+
+The procedure using Method 1 is as follows:
+
+- Perform a PCR using primers 1 and 6 for each gene (nrp1 and bem2) in yll137 (for nrp1) and yll140 (for bem2).
+  - Try to get around 3ug of DNA after PCR for each strain to ensure plenty of transformants.
+- Transform it into ylic133 each fragment separately.
+- Check the integration by plate.
+
+## Method 2
+
+> Pros: No genomic preps
+
+> Cons: I have to do 6 more PCRs!!!.
 
 - The procedure consists on:
   - Perform an Overlap Extension (OEP) PCR in order to get a DNA fragment in high concentration to insert in ylic133 and kick out the *nrp1* and *bem2* gene by replacing the HYGRO and LEU2 markers, respectively.
@@ -80,22 +94,48 @@ crossref: true
   3. PCR3: primer 5 and 6 with genomic DNA of ylic133
 
 
-## Method 2
-
-> Pros: No genomic preps
-
-> Cons: I have to do 6 more PCRs!!!.
-
-- The strategy is to delete *nrp1* using the HYGRO cassette and *bem2* in the leu2 locus as Liedewij has in her strains, in my ylic133 strain.
-
-The procedure using Method 2 is as follows:
-
-- Perform a PCR using primers 1 and 6 for each gene (nrp1 and bem2) in yll137 (for nrp1) and yll140 (for bem2).
-  - Try to get around 3ug of DNA after PCR for each strain to ensure plenty of transformants.  
-- Transform it into ylic133 each fragment separately.
-- Check the integration by plate.
-
-
 ## Results
+I did Method 1:
+
+- 18022020 : genomic prep of yll137 and yll140
+  - I used 1ml of overnight culture for the DNA extraction
+  - I used the vortex at the highest speed for the bead tubes
+  - nanodrop: Low DNA concentration...
+
+    | Strain |DNA  |A260  |A280|260/280|260/230|
+    |---|---|---|---|---|---|
+    | yll137  |8.3 ng/ul  | 0.166  | 0.082  | 2.02 |5.36 |
+    | yll140 |12.3 ng/ul  | 0.246  | 0.125 | 1.97 |3.46 |
+
+PCR using primer 1 and 6 for nrp1 and primer 1 and 6 for bem2 in **1ul** of DNA template for yll137 and yll140 respectively.
+
+  - The expected length for the PCRs are :
+    - 2426bp for the case of nrp1::HYGRO
+    - 2239bp for the case of bem2::LEU2
+  - In the protocol with Phusion Polymerase I should use around 1 min o elongation time, because this polymerase extends 1kb per 20secs.
+    - Protocol (1h-50mins):
+
+       5 mins in 95C,       1 min 72C 35x cycles       hold 10C
+  - 19022020- DNA gel
+
+  ![DNA gel of the PCR products](../images/PCR-yll140-succesful.png){#fig:dna-gel width=50%}
+
+   - The DNA gel is showing I dont have any product for yll137 PCR :(
+   - Possibles causes:
+     - Low template concentration (8.3ug)
+     - High anneling temperature (60C )
+   -  The size for the yll140 band is bellow  the expected one , after the estmation done in SnapGene, considering that the leu marker needs 200bp around it for both promoters. Maybe that is the correct size and I was overestimating the size of the promoters.
+     -  Next step is sequencing this PCR product , to know what is actually there.
+
+### Next round
+
+- Repeat PCR for yll137 with **10ul** of template and **58C** for annealing temperature.
+- Include a positive control (yll3a) with the same primers 1 and 6 for nrp1 locus amplification.
+- Include a PCR for yll140 , for later sequencing.
+
+![Result of the next round PCR ... very sad](../images/blank-gel-yll140-3a-137-downstair-PCR-58C-annealing.png){#fig:blank-gel width=50%}
+
+- I return my PCR samples to another PCR round using the 1st Protocol with the anneling temperature in 60C, and I added 0.5 ul of Phusion to each sample.
+  - By mistake I put 5ul of Phusion in yll137 PCR tube !!! (that was after 6pm!!!)
 
 ## Conclusion

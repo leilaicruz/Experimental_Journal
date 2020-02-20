@@ -118,6 +118,8 @@ PCR using primer 1 and 6 for nrp1 and primer 1 and 6 for bem2 in **1ul** of DNA 
        5 mins in 95C,       1 min 72C 35x cycles       hold 10C
   - 19022020- DNA gel
 
+  - Results , see @fig:dna-gel
+
   ![DNA gel of the PCR products](../images/PCR-yll140-succesful.png){#fig:dna-gel width=50%}
 
    - The DNA gel is showing I dont have any product for yll137 PCR :(
@@ -125,17 +127,34 @@ PCR using primer 1 and 6 for nrp1 and primer 1 and 6 for bem2 in **1ul** of DNA 
      - Low template concentration (8.3ug)
      - High anneling temperature (60C )
    -  The size for the yll140 band is bellow  the expected one , after the estmation done in SnapGene, considering that the leu marker needs 200bp around it for both promoters. Maybe that is the correct size and I was overestimating the size of the promoters.
-     -  Next step is sequencing this PCR product , to know what is actually there.
+
+   - [ ] Next step is sequencing this PCR product , to know what is actually there.
+
 
 ### Next round
 
-- Repeat PCR for yll137 with **10ul** of template and **58C** for annealing temperature.
+- Repeat PCR for yll137 with **10ul** of template and **58C** for annealing temperature. See results in @fig:blank-gel
 - Include a positive control (yll3a) with the same primers 1 and 6 for nrp1 locus amplification.
 - Include a PCR for yll140 , for later sequencing.
 
-![Result of the next round PCR ... very sad](../images/blank-gel-yll140-3a-137-downstair-PCR-58C-annealing.png){#fig:blank-gel width=50%}
+  ![Result of the next round PCR ... very sad](../images/blank-gel-yll140-3a-137-downstair-PCR-58C-annealing.png){#fig:blank-gel width=50%}
 
 - I return my PCR samples to another PCR round using the 1st Protocol with the anneling temperature in 60C, and I added 0.5 ul of Phusion to each sample.
   - By mistake I put 5ul of Phusion in yll137 PCR tube !!! (that was after 6pm!!!)
+  Here the results, see @fig:overnight-PCR:
 
+    ![Overnight PCR results](../images/20022020-137-3a-140-weird-sizes-bands.png){#fig:overnight-PCR width=50%}
+
+    - yll3a bands is not correct, the expected size should be around 2700bp and is below 1500bp.
+    - For yll137 the expected band should be around 2400 bp, considering the Hygro cassette of plasmid 32 HphMX4 is in Liedewij strain yll137. The actual band is close to 2500bp, so maybe it is correct.
+  - 3rd run using a TouchDown PCR , see explanation [here](https://international.neb.com/faqs/0001/01/01/what-is-touchdown-pcr)
+
+      > It is a method for increasing specificity of PCR reactions. Touchdown PCR uses a cycling program where the annealing temperature is gradually reduced (e.g. 1-2°C /every second cycle). The initial annealing temperature should be several degrees above the estimated Tm of the primers. The annealing temperature is then gradually decreased until it reaches the calculated annealing temperature of the primers or some degrees below. Amplification is then continued using this annealing temperature.
+      - I used 10ul template of yll137 , 2ul of yll140 and 1ul of yll3a.
+      - Results , see @fig:touch-down-PCR ...
+
+      ![Results from the touch down PCR](../images/20022020-touch-down-PCR-137-3a-140.png){#fig:touch-down-PCR width=50%}
+
+        - at least yll140 work and give the same size as the 1st time.
+        - No idea why the rest did not work..
 ## Conclusion

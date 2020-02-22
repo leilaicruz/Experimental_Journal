@@ -157,4 +157,10 @@ PCR using primer 1 and 6 for nrp1 and primer 1 and 6 for bem2 in **1ul** of DNA 
 
         - at least yll140 work and give the same size as the 1st time.
         - No idea why the rest did not work..
+  - PCR done by Els , from the lab, using her set of primers , oES83 and oES84.
+
+    ![PCR done by Els Sweep, with her set of primers, and it was succesful :) for yll137 and yll3a](../images/els-PCR-yll137-yll3a-succesful-21022020.png)
+
 ## Conclusion
+
+- Something is weird about my primers for yll137- nro1::hygro amplification , that do not make the right product in the PCR reaction. 

@@ -163,6 +163,13 @@ PCR using primer 1 and 6 for nrp1 and primer 1 and 6 for bem2 in **1ul** of DNA 
 
     ![PCR done by Els Sweep, with her set of primers, and it was succesful :) for yll137 and yll3a](../images/els-PCR-yll137-yll3a-succesful-21022020.png)
 
+- After clean up , the DNA concentration was:
+
+ | PCR |DNA  |A260  |A280|260/280|260/230|
+|---|---|---|---|---|---|
+| yll137-83/84 primers   |73.3 ng/ul  | 1.46  | -  | 1.83 |2.23 |
+| yll137-SPY primers  |89.9 ng/ul  | 1.79 | -| 1.85 |2.18 |
+
 ## Conclusion
 
 - Something is weird about my primers for yll137- nrp1::hygro amplification , that do not make the right product in the PCR reaction.

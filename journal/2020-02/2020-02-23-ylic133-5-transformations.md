@@ -65,6 +65,18 @@ Transformation-2: To replace bem2 locus with the leu2 marker using the PCR produ
   - After removing the transformation mix , I added 1ml of YPD+6xADE to incubate in 30C overnight, and then plate that next morning on the selection plates.
   - This choice for the recovery way is based on the experience when selecting using 5FOA plates for not having URA, [here](../2019-07/2019-07-11_Exp_URA-kickout-transformation-ylic132_1_2.md).
 
+
 ## Results
+25022020- Samples were spilled out from the eppi tube after the overnight incubation (I put too much YPD that cause the burst due to CO2 production)
+
+> Next time put parafilm, around it , to prevent spilling.
+
+![](../images/25022020-samples-spilled-out.png){width=50%}
+
+**Note**:
+
+> In general it is not advisable to wait more a whole overnight for recovery, because then we decrease the changes to have different biological replicates, since maybe one population will take over during the overnight incubation.
+
+> Esentially the stadistics will go down , and if we have suppresor they will be "hidden" when plating on the selection plates.
 
 ## Conclusion

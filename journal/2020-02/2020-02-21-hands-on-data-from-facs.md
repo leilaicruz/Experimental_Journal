@@ -47,7 +47,7 @@ To describe the process of measuring and data collection by the BDFACSCelesta, i
     - The height does not depend on the cell size, and neither the flow rate of the cells through the laser beam.
     - The height from the electrical pulse (Voltages), after the conversion of the fluorescence emission signal by the detectors and photomultipliers, is proportional to the real height from the emission signal (Intensities).
     - The height value from the electrical pulse is not dependent on the voltages set by the user for the PMT (photomultipliers).
-    - The height gives the total fluorescence of a portion of a cell. Given the fact we measure thousands of cells the effects of the cell cycle , on the fluorescence will be averaged out. And since we wwan th relative production compared with a control , those effects will be cancelled out.
+    - The height gives the total fluorescence of a portion of a cell. Given the fact we measure thousands of cells the effects of the cell cycle , on the fluorescence will be averaged out. And since we want the relative production compared with a control , those effects will be cancelled out.
       -  For example if the center of the cell happen to have a polarization spot ,then the height will rise, but wont be given an increase in galactose but because all the GFP molecules are localized there.
 
   - **Area** :The integration of all the digitized samples over time, where time is the window gate plus 1/2 the window extension added before the initial threshold, plus the other half of the window extension value added after the pulse drops below the threshold. The window gate extends until the pulse is 75% of the initial threshold.
@@ -68,4 +68,4 @@ To describe the process of measuring and data collection by the BDFACSCelesta, i
 
 ## Conclusion
 
-- In general , what it is best is to take the histograms based on the height of the fluorescence signal for further data analysis. 
+- In general , what it is best is to take the histograms based on the height of the fluorescence signal for further data analysis.

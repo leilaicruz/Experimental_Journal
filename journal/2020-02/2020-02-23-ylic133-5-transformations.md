@@ -79,4 +79,25 @@ Transformation-2: To replace bem2 locus with the leu2 marker using the PCR produ
 
 > Esentially the stadistics will go down , and if we have suppresor they will be "hidden" when plating on the selection plates.
 
+- I got more than 50 transformants in the -leu2 plates and a big splash of cells combiend with colonies in one of the hygro plate.
+  - I inoculated 200ul from the eppi tube that spilled out, onto the two plates, without any dilution.
+  - In one of the plates there was a big loan because they were many colonies on it.
+  - I did not see any bacterial contamination on the plates. :)
+
+- Colony PCR to check the transformation
+
+  - I check 8 colonies from the hygro plate and -leu2 plate and retreak them onto a new plate, to save the colony.
+    - First colony PCR I did using SPY1/2 Els primers and 1ul of template.
+
+![1st Colony PCR gel with 1ul template](../images/27022020-colony-pcr-nrp1&bem2.png){#fig:colony_pcr_1}
+
+  ![2nd Colony PCR with 5ul template and more bem2:leu2 colonies. The second half of the gel after the 3a with 33/38 primers corresponds with the 9-16 small colonies from -leu2 plates.](../images/28022020-colony-pcr-nrp1&bem2-small-colonies.png){#fig:colony_pcr_2}
+
+  - For the nrp1::hygro clones it has not worked with SPY1/2 primers.
+- Colony PCR for nrp1::hygro clones with 27/32 primers from my stock and 83/84 from Els.
+  -  I take single colonies from the restreak onto Hygro.
+
+- I took single colonies (8,12,13,16) from the -leu2 plate restreak and grow them in YPD+6xADE  for glycerol stock and restreak them in normal YPD plate to check for the red phenotype.
+  - Do colony PCR with those colonies with the sequencing primers SPY1-bem2 and SPY2-bem2 to send for sequencing. 
+
 ## Conclusion

@@ -96,8 +96,11 @@ Transformation-2: To replace bem2 locus with the leu2 marker using the PCR produ
   - For the nrp1::hygro clones it has not worked with SPY1/2 primers.
 - Colony PCR for nrp1::hygro clones with 27/32 primers from my stock and 83/84 from Els.
   -  I take single colonies from the restreak onto Hygro.
+  ![](../images/02032020-colony-pcr-nrp1-hygro-different-primers.png)
+  - It is not clear whether the nrp1::hygro have the right length. Neither the negatiev control with primers 83/84.
+  - [ ] Do another PCR with sequencing primers to check again.
 
 - I took single colonies (8,12,13,16) from the -leu2 plate restreak and grow them in YPD+6xADE  for glycerol stock and restreak them in normal YPD plate to check for the red phenotype.
-  - Do colony PCR with those colonies with the sequencing primers SPY1-bem2 and SPY2-bem2 to send for sequencing. 
+  - Do colony PCR with those colonies with the sequencing primers SPY1-bem2 and SPY2-bem2 to send for sequencing.
 
 ## Conclusion

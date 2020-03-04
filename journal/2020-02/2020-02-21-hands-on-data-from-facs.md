@@ -48,12 +48,12 @@ To describe the process of measuring and data collection by the BDFACSCelesta, i
     - The height from the electrical pulse (Voltages), after the conversion of the fluorescence emission signal by the detectors and photomultipliers, is proportional to the real height from the emission signal (Intensities).
     - The height value from the electrical pulse is only dependent on the voltages set by the user.
     - The height gives the total fluorescence of a portion of a cell. Given the fact we measure thousands of cells the effects of the cell cycle , on the fluorescence will be averaged out. And since we want the relative production compared with a control , those effects will be cancelled out.
-      -  For example if the center of the cell happen to have a polarization spot ,then the height will rise, but wont be given an increase in galactose but because all the GFP molecules are localized there.
+      -  For example if the center of the cell happen to have a polarization spot ,then the height will rise, but wont be given due to an increase in galactose but because all the GFP molecules are localized there.
 
   - **Area** :The integration of all the digitized samples over time, where time is the window gate plus 1/2 the window extension added before the initial threshold, plus the other half of the window extension value added after the pulse drops below the threshold. The window gate extends until the pulse is 75% of the initial threshold.
     - The area given by the electrical signal depends on many parameters, like :
       - the area scaling factor **(0.84 for the blue laser, 0.71 for the FSC)**
-      - the windows extension time **(10usecs in our setup)**. The maximum possibly set is 25usecs. 
+      - the windows extension time **(10usecs in our setup)**. The maximum possibly set is 25usecs.
       - The voltages of the photomultipliers
     - **Important note**: If the area scaling factor is not calibrated before each experiment such as the area measurement is always proportional to the height of the signal, then the area given by the instrument does not reflect a real integration over time of the intensities of the cell . hence the area  is not a measure of the total fluorescence of the cell in the case the area scaling factor is not calibrated before.
   - **Width** : The current width is measured by the electronics. This system does not directly calculated the width of the light signal.

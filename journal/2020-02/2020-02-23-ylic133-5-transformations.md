@@ -97,10 +97,20 @@ Transformation-2: To replace bem2 locus with the leu2 marker using the PCR produ
 - Colony PCR for nrp1::hygro clones with 27/32 primers from my stock and 83/84 from Els.
   -  I take single colonies from the restreak onto Hygro.
   ![](../images/02032020-colony-pcr-nrp1-hygro-different-primers.png)
-  - It is not clear whether the nrp1::hygro have the right length. Neither the negatiev control with primers 83/84.
-  - [ ] Do another PCR with sequencing primers to check again.
+  - It is not clear whether the nrp1::hygro have the right length. Neither the negative control with primers 83/84.
+  - [x] Do another PCR with sequencing primers to check again. 03032020
+    - I did the PCR with the sequencing primers and redo the gel for the previous PCR with primers 27/32 and 83/84 but running the gel 40 mins at 110V. (Following Els and Liedewij recommendations from lab meeting). Below are the results:
+
+  ![Large gel showing that increasing the time of the gel allow to resolve closer bands. Colony 1 and 8 from nrp1::hygro clones seems have both(?), and the rest seems OK according the band lenght. This observation is also consistent with primers 83 and 84. No bands are shown for the sequencing primers for the nrp1::hygro clones.For bem2 it seems also OK, all the bands. Still yll3a does not show the right band in 7000bp which could be due to the PCR cycle.](../images/03032020-Re-PCR-02032020&sequencing-primers.png){#fig:seq-PCR}
+  - Results:
+    - Colony 1 and 8 from nrp1::hygro clones seems have both(?), and the rest seems OK according the band lenght. This observation is also consistent with primers 83 and 84. No bands are shown for the sequencing primers for the nrp1::hygro clones.
+    - For bem2 it seems also OK, all the bands. Still yll3a does not show the right band in 7000bp which could be due to the PCR cycle.
 
 - I took single colonies (8,12,13,16) from the -leu2 plate restreak and grow them in YPD+6xADE  for glycerol stock and restreak them in normal YPD plate to check for the red phenotype.
-  - Do colony PCR with those colonies with the sequencing primers SPY1-bem2 and SPY2-bem2 to send for sequencing.
+
+![Indeed they are red :) ](../images/bem2-colonies-8,12,13,16-growth-48h.png)
+
+  - [ ] Do colony PCR with SPY1-bem2 and SPY2-bem2 with all small and big colonies that have shown a band with 33/38 primers.
+  - [ ] Store also 5 small and  5 big colonies to later test the population phenotype, and decided which is bem2d. Because it seems I have two populations, that show the right band on gel. 
 
 ## Conclusion

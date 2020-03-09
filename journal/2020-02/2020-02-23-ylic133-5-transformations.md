@@ -110,7 +110,27 @@ Transformation-2: To replace bem2 locus with the leu2 marker using the PCR produ
 
 ![Indeed they are red :) ](../images/bem2-colonies-8,12,13,16-growth-48h.png)
 
-  - [ ] Do colony PCR with SPY1-bem2 and SPY2-bem2 with all small and big colonies that have shown a band with 33/38 primers.
-  - [ ] Store also 5 small and  5 big colonies to later test the population phenotype, and decided which is bem2d. Because it seems I have two populations, that show the right band on gel. 
+  - [x] Do colony PCR with SPY1-bem2 and SPY2-bem2 with all small and big colonies that have shown a band with 33/38 primers.
+  - [x] Store also 5 small and  5 big colonies to later test the population phenotype, and decided which is bem2d. Because it seems I have two populations, that show the right band on gel.
+
+![Gel showing the nrp1 transformants from 2-6 results from a PCR testing the hygro marker and the lack of nrp1 in the same region.](../images/04032020-hygro-nrp1-checking-frm-inside-SPY-bem2.png)
+
+![Gel showing that the nrp1 clones 2-6 are GOOD!!  so they passed this test of checking whther they have hygro marker or not.](../images/05032020-hgro-nrp1-inside.png)
 
 ## Conclusion
+- It seems I could take 5 clones per transformation that seems they are correct :)
+- [x] I sent already (05032020) bem2::leu2 clones to sequence with primers SPY1 and SPY2
+- [x] I will send today (06033030) nrp1::hygro clones to sequencing.
+- [x] I am also incubating those clones in liquid selection media to do a population phenotype test in the Biotek.
+  Results :)
+
+  ![](../images/dnrp1-biolg-replicates.png)
+
+  ![](../images/dbem2-biolg-replicates.png)
+
+  - Indeed there is less variation among nrp1d clones than bem2d clones, which could be due to the overnight recovery.
+
+- I will also stored them today as glycerol stocks in the selection media.
+  - I stored only one tube per biolog replicate.
+
+Next Step is to transform them with the pBK549 plasmid. :) 

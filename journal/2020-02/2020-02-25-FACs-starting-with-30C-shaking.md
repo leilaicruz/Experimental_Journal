@@ -99,3 +99,17 @@ colorlinks: true
   - It seems that for glucose the effect is the opposite. For T=36C the growth seems better than for 30C.
 
 ## Conclusion
+
+-  In 0% gal , the fluorescence the wild type show is the left over after 24 hours in this concentration. Which can be used to estimate the amount of cdc42 we see in the microscopy experiments. So in this case will be that in 0% gal, the wt has around 0.21x the native amount and dbem1 was almost dead and also dbem1dbem3.
+-  Table with values:
+
+| Gal concentration | [cdc42-gal]/[mean-ref]|
+|-------------------|----------------------|
+| 0% Gal            | 0.215743             |
+| 0.018% Gal         | 1.124315             |
+| 0.036% Gal         | 1.105623             |
+| 0.108% Gal         | 1.073516             |
+| 0.144% Gal         | 1.827492             |
+| 0.18% Gal          | 3.220484             |
+| 0.36% Gal          | 1.908644             |
+| 3.6% Gal            | 2.149941             |

@@ -42,16 +42,20 @@ Transformation-2: To replace bem2 locus with the leu2 marker using the PCR produ
 - Following this [Yeast Transformation Protocol](../Protocols/Yeast-transformation.md)
 - Day0: 16:00 , Incubation of ylic133_5A from glycerol stock from 01202019 in YPD+6xADE. 10mL per transformation with its negative control.
 - Day1: Measure OD of overnight cultures
+
   - | Sample |10X dilution OD  |Real OD|
   |---|---|---|
   | yll133_5 (1)  |0.1  | 1|
   | yll133_5 (2) |0.07  | 0.7|
+  
 - At 10:00 am 2nd incubation with a 2x dilution down to OD~0.5
 - Check at 14:00 the OD
+
 - | Sample |10X dilution OD  |Real OD|
 |---|---|---|
 | yll133_5 (1)  |0.28  | 2.8|
 | yll133_5 (2) |0.23  | 2.3|
+
 - DNA amount for transformations
     - nrp1::HYGRO - 806 ng (73.3ng/ul*9ul)
     - bem2::leu2 - 1.296 ug(144.4 ng/ul*9ul)
@@ -133,4 +137,4 @@ Transformation-2: To replace bem2 locus with the leu2 marker using the PCR produ
 - I will also stored them today as glycerol stocks in the selection media.
   - I stored only one tube per biolog replicate.
 
-Next Step is to transform them with the pBK549 plasmid. :) 
+Next Step is to transform them with the pBK549 plasmid. :)

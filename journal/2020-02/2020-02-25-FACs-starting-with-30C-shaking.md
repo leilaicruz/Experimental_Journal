@@ -25,7 +25,7 @@ crossref: true
 colorlinks: true
 ---
 
-# Title : FACs experiment with strains ywkd065, ywkd024, ywkd038 and ywkd001
+# Title : 20200227-FACs experiment with strains ywkd065, ywkd024, ywkd038 and ywkd001
 
 
 ## Date

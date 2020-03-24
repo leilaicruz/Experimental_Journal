@@ -123,8 +123,14 @@ Transformation-2: To replace bem2 locus with the leu2 marker using the PCR produ
 
 ## Conclusion
 - It seems I could take 5 clones per transformation that seems they are correct :)
-- [x] I sent already (05032020) bem2::leu2 clones to sequence with primers SPY1 and SPY2
+- [x] I sent already (05032020) bem2::leu2 clones to sequence with primers SPY1 and SPY2 (good results)
+
+  ![](../images/24032020-S288C_chrV_bem2-leu2-seq-Map.png)
+
 - [x] I will send today (06033030) nrp1::hygro clones to sequencing.
+
+  ![](../images/24032020-S288C_chrIV_nrp1-Hygro-seq-Map.png)
+
 - [x] I am also incubating those clones in liquid selection media to do a population phenotype test in the Biotek.
   Results :)
 
@@ -132,9 +138,17 @@ Transformation-2: To replace bem2 locus with the leu2 marker using the PCR produ
 
   ![](../images/dbem2-biolg-replicates.png)
 
+  - The code I wrote to compute the doubling times is in this [jupyter notebook](C:\Users\linigodelacruz\Documents\PhD_2018\Documentation\SATAY\nrp1-bem2-single-deletions-for-satay-02-2020\Biotek-09032020\biotek-data-analysis.ipynb)
+
+     ![](../images/dnrp1-dbem2-growth-rates.png){width=60%}
+
   - Indeed there is less variation among nrp1d clones than bem2d clones, which could be due to the overnight recovery.
 
 - I will also stored them today as glycerol stocks in the selection media.
   - I stored only one tube per biolog replicate.
 
-Next Step is to transform them with the pBK549 plasmid. :)
+## Next Steps
+
+- [ ] Repeat the biotek measurements using the wt strain in order to compare these mutants relative to the WT. 
+- [ ] Make a PCR from inside the leu2 marker and bem2 to check the correct integration of bem2::leu2 transformants. (colony PCR) **still is not clear the differences I see in the selected biological replicates for bem2::leu2 mutants**
+ 

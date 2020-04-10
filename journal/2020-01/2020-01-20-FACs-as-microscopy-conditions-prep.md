@@ -146,3 +146,17 @@ The maximum amount of counts, or cells that the FAcs was set to analyse was 1000
     - WT+gal:  2.18 fold change
     - Soldner strain: 2.64 fold change
     - ywkd038-cdc42 reference: 1.22 fold change (should be 1)
+
+For ywkd065: 
+
+| Gal concentration | [cdc42-gal]/mean-ref |
+|-------------------|----------------------|
+| 0% Gal            | 0.541095						 |
+| 0.01% Gal         | 1.310883             |
+| 0.02% Gal         | 1.391903             |
+| 0.06% Gal         | 1.553951             |
+| 0.08% Gal         | 1.618289             |
+| 0.1% Gal          | 1.624045             |
+| 0.2% Gal          | 1.572428             |
+| 2% Gal            | 1.469435             |
+

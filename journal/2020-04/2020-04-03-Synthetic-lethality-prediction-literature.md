@@ -137,7 +137,7 @@ Mining protein networks for synthetic genetic interactions. Bmc Bioinformatics
     - number of mutual neighbors between proteins p and q
     - 2Hop S-S and 2Hop S-P
   
-[^1]: which exploit the fact that the known synthetic genetic  network contains a large number of triangles. 2Hop S-S takes a value 1 if the genes encoding the two proteins p and q share a synthetic lethal partner and 0 otherwise, whereas 2Hop S-P takes a value 1 if there exists a protein r such that r has physical interaction with protein p and the gene corresponding to protein r has a SSL interaction with protein q or vice versa.
+[1]: which exploit the fact that the known synthetic genetic  network contains a large number of triangles. 2Hop S-S takes a value 1 if the genes encoding the two proteins p and q share a synthetic lethal partner and 0 otherwise, whereas 2Hop S-P takes a value 1 if there exists a protein r such that r has physical interaction with protein p and the gene corresponding to protein r has a SSL interaction with protein q or vice versa.
 
 ---------------------------
 <!-- 

@@ -25,7 +25,7 @@ crossref: true
 colorlinks: true
 ---
 
-# Title: 23042020-Summary on machine learning study
+# Title: 23042020-Summary on machine learning study 
 
 ## Date:
 23042020

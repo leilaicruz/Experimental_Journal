@@ -1,4 +1,4 @@
-# Strain construction database
+# Strain construction database :snail:
 
 | Strain name  |Genotype   | Nickname  |Comments   |
 |---|---|---|---|

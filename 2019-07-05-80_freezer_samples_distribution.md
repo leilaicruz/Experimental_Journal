@@ -1,38 +1,6 @@
----
-title: -80 Frezeer samples
-output: pdf_document
-documentclass: article
-classoption: onecolumn
-pdf_document:
-latex_engine: pdflatex
-toc: true
-lof: true
-numberSections: true
-highlight: tango
-sectionsDepth: 3
-chapters: True
-figPrefix:
-  - "Fig."
-  - "Figs."
-secPrefix:
-  - "Section"
-  - "Sections"
-fontsize: 12pt
-geometry: margin=0.5in
-autoEqnLabels: true
-cref: true
-crossref: true
-colorlinks: true
----
 
+# -80C Freezer SATAY box sample distribution :whale:
 
-
-
-
-
-
-
-# -80C Freezer SATAY box sample distribution :snowflake:
 |   | 1  |  2 |  3 | 4  | 5  |  6 | 7  | 8  | 9  |
 |:---:|---|---|---|---|---|---|---|---|---|
 | A  | bacteria containing <br> plasmid  pBK49   | Byk832T_1  |   |   |   | ylic132_5 | ylic132_5 | ylic128 | yLL135 |

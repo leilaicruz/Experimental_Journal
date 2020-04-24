@@ -1,4 +1,4 @@
-# General Experimental Template :point_down:
+# General Experimental Template :pig:
 
 # Title
 

@@ -49,6 +49,8 @@ colorlinks: true
 
 ## Results
 
+**THE CODE THAT GENERATES THESE PLOTS** [IS IN THIS GITHUB REPO ](https://github.com/leilaicruz/machine-learning-for-yeast/blob/leila_common2type/interactions-from-commons-measures.ipynb)
+
 ![Distribution of the features over 1000 genes taken randomly as the dataset to analyze](../images/29042020-distributions-of-features-common-go&partners-1000-genes.png){#fig:hist}
 
 
@@ -112,6 +114,8 @@ colorlinks: true
 
 ## Conclusions
 
-1- Common go terms and common interaction partners ovwer 1000 shows still a general poor correlation with SL and non SL pairs. 
-2- Perhaps I need to increase the sample size to more genes. 
-3- When I do a less astringent SL class by including also negative interactors, what happens is that the correlation with being SL and having common go terms is negative but low (~6%) , and this is highly significant (~10$^{-57}$). This means that the chances of having 0% correlation with this dataset is exteremely low, almost imposible. 
+1. Common go terms and common interaction partners ovwer 1000 shows still a general poor correlation with SL and non SL pairs. 
+
+2. Perhaps I need to increase the sample size to more genes. 
+
+3. When I do a less astringent SL class by including also negative interactors, what happens is that the correlation with being SL and having common go terms is negative but low (~6%) , and this is highly significant (~10$^{-57}$). This means that the chances of having 0% correlation with this dataset is exteremely low, almost imposible. 

@@ -43,7 +43,16 @@ colorlinks: true
 
 - 30042020 - Streak out the glycerol stocks of all the colonies from ylic135 (colony 7,8,12,13 and 16) on CSM-leu2 plate and also ylic133 (WT ade2-) in YPD for further colony picking for the colony PCR.
 
-- 
+  - 04052020 - Result of the growth in plate:
+
+    ![](../images/04052020-differences-in-growth-bem2d-colonies.png)
+
+- 04052020: Colony PCR
+
+    - 12 PCRs in total because I have 6 samples for every set of primers. One positive set using 5 colonies from bem2:leu2 and ylic133 and  primers 49-50 for leu2 check. And a negative set with the same samples but woth primers 47-48 for BEM2 check. 
+    - Protocol : Leila (name in the machine)
+    - No bands in the PCR gel (?????)
+    ![PCR results :( No bands )](../images/04052020-UNSUCCESFUL-PCR-bem2-leu2-check.png)
 
 ## Results
 

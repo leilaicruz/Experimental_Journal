@@ -29,7 +29,7 @@ colorlinks: true
 
 ## Date
 
-30042020- 
+30042020
 
 ## Method
 

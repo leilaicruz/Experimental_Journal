@@ -1,3 +1,30 @@
+---
+title: "SATAY 1st attempt with Byk832-T"
+output: pdf_document
+documentclass: article
+classoption: onecolumn
+pdf_document:
+latex_engine: pdflatex
+toc: true
+lof: true
+numberSections: true
+highlight: tango
+sectionsDepth: 3
+chapters: True
+figPrefix:
+  - "Fig."
+  - "Figs."
+secPrefix:
+  - "Section"
+  - "Sections"
+fontsize: 12pt
+geometry: margin=0.5in
+autoEqnLabels: true
+cref: true
+crossref: true
+colorlinks: true
+---
+
 # Title: 29072019-SATAY 1st attempt with Byk832-T :pray: :confused: :x:
 
 # Date
@@ -29,26 +56,29 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
     - Incubate at 30C, 140-160 rpm, to OD=4-6 (around 20h)
         > Started at :clock230: (14:30) :blush:
     - It is recommended to start with 3-4 precultures and later chose which to reseed in SD-ADE 2% Glucose.
+
     #### Benoit Data
-    | Strain  | Preculture  |   |   |
-    |---|---|---|---|
-    |   | OD start |  OD stop |  Time  |
-    | strain # 1 | 0.234  | 4.33  |  20h |
-    | strain # 2  | 0.233  | 4.02  | 20h  |
-    | strain # 3  | 0.235 |  3.85 | 20h  |
-    | strain # 4  | 0.227  | 4.04  | 20h  |
-    | strain # 5  | 0.229 | 3.94  |  20h |
-    | strain # 6  | 0.235  | 4.07  | 20h  |
-    #### Our data
-    | Strain (2 technical replicates) | Preculture  |   |   |
-    |---|---|---|---|
-    |   | OD start (29072019-:clock230: -> 14:30) |  OD stop (**~2X higher<br> than Benoit data**) |  Time  |
-    | Byk832T_1(Leila) | 0.19  | ~ 12.6  | 19h  |
-    | Byk832T_2 (Leila) | 0.14  | ~11.2  | 19h  |
-    | Byk832T_3(Leila)  | 0.17  | ~ 10.8   | 19h  |
-    | Byk832T_1(Enzo)  | 0.19  | ~ 8   | 19h  |
-    | Byk832T_2(Enzo)  | 0.14  | ~ 10   | 19h  |
-    | Byk832T_3(Enzo)  | 0.17  | ~ 9.7   | 19h  |
+
+| Strain  |  OD start  | OD STOP | Time  |
+|---|---|---|---|
+| strain # 3  | 0.235 |  3.85 | 20h  |
+| strain # 5  | 0.229 | 3.94  |  20h |
+| strain # 2  | 0.233  | 4.02  | 20h  |
+| strain # 4  | 0.227  | 4.04  | 20h  |
+| strain # 6  | 0.235  | 4.07  | 20h  |
+| strain # 1 | 0.234  | 4.33  |  20h |
+|  
+#### Our data
+
+| Strain (2 technical replicates) | Preculture  |   |   |
+|---|---|---|---|
+|   | OD start (29072019-:clock230: -> 14:30) |  OD stop (**~2X higher<br> than Benoit data**) |  Time  |
+| Byk832T_1(Leila) | 0.19  | ~ 12.6  | 19h  |
+| Byk832T_2 (Leila) | 0.14  | ~11.2  | 19h  |
+| Byk832T_3(Leila)  | 0.17  | ~ 10.8   | 19h  |
+| Byk832T_1(Enzo)  | 0.19  | ~ 8   | 19h  |
+| Byk832T_2(Enzo)  | 0.14  | ~ 10   | 19h  |
+| Byk832T_3(Enzo)  | 0.17  | ~ 9.7   | 19h  |
 
 3. **Induction**
 
@@ -95,24 +125,27 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
         - **Pursue with the culture that gives the highest number of clones, starting from a minimum of background.**
         - *500-1000X more ADE+ clones at T=51 hours than at T=0 of inductions is in the ballpark*
 
-        #### Benoit Data
-        | Strain  | Induction  |   |   |  |  |
-        |---|---|---|---|---|---|
-        |   | OD start |  OD stop |  Time  | # ADE+ cells/mL <br> at START | # ADE+ cells/mL  <br> at STOP |
-         | strain # 1 | 0.189  | 6.96  |  51h |4.05E+02 | 1.46E+05|
-        | strain # 2  | 0.198  | 7.17  | 51h  | 2.60E+02 |1.15E+05 |
-        | strain # 3  | 0.194 |  7.13 | 51h  |2.85E+02 |2.24E+05 |
-        | strain # 4  | 0.196  | 7.11  | 51h  |1.43E+02 |3.72E+05 |
-        | strain # 5  | 0.172 | 7.13  |  51h |2.25E+02 |2.58E+05 |
-        | strain # 6  | 0.199  | 7.27  | 51h  |2.55E+02 | 1.82E+05|
-        #### Our data
-        | Strain  | Induction  |   |   |  |  |
-        |---|---|---|---|---|---|
-        |   | OD start |  OD stop |  Time  | # ADE+ cells/mL <br> at START | # ADE+ cells/mL  <br> at STOP |
-         | Byk832T_3 (Leila)| 0.098  |   |  51h | | |
-        | Byk832T_1 (Enzo) | 0.484  |   | 51h  |  | |
-        | Byk832T_2 (Enzo) | 0.510 |   | 51h  | | |
-        | Byk832T_3 (Enzo)| 0.393  |   |  51h | | |
+#### Benoit Data
+
+| Strain  | Induction  |   |   |  |  |
+|---|---|---|---|---|---|
+|   | OD start |  OD stop |  Time  | # ADE+ cells/mL <br> at START | # ADE+ cells/mL  <br> at STOP |
+    | strain # 1 | 0.189  | 6.96  |  51h |4.05E+02 | 1.46E+05|
+| strain # 2  | 0.198  | 7.17  | 51h  | 2.60E+02 |1.15E+05 |
+| strain # 3  | 0.194 |  7.13 | 51h  |2.85E+02 |2.24E+05 |
+| strain # 4  | 0.196  | 7.11  | 51h  |1.43E+02 |3.72E+05 |
+| strain # 5  | 0.172 | 7.13  |  51h |2.25E+02 |2.58E+05 |
+| strain # 6  | 0.199  | 7.27  | 51h  |2.55E+02 | 1.82E+05|
+
+#### Our data
+
+| Strain  | Induction  |   |   |  |  
+|---|---|---|---|---|---|
+|   | OD start |  OD stop |  Time  | # ADE+ cells/mL <br> at START | # ADE+ cells/mL  <br> at STOP |
+    | Byk832T_3 (Leila)| 0.098  |   |  51h | | |
+| Byk832T_1 (Enzo) | 0.484  |   | 51h  |  | |
+| Byk832T_2 (Enzo) | 0.510 |   | 51h  | | |
+| Byk832T_3 (Enzo)| 0.393  |   |  51h | | |
 
 
 

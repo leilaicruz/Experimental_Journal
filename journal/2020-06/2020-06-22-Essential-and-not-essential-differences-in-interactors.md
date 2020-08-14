@@ -1,4 +1,3 @@
-c\   xz
 ---
 title: "Interactors of essential vs non essential genes"
 output: pdf_document

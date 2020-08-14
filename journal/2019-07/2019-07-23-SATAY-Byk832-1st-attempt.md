@@ -67,7 +67,8 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
 | strain # 4  | 0.227  | 4.04  | 20h  |
 | strain # 6  | 0.235  | 4.07  | 20h  |
 | strain # 1 | 0.234  | 4.33  |  20h |
-|  
+
+ 
 #### Our data
 
 | Strain (2 technical replicates) | Preculture  |   |   |

@@ -28,7 +28,7 @@ colorlinks: true
 # Title : 20200810-SATAY for $\Delta$bem2, $\Delta$nrp1 and WT
 
 ## Date
-10082020- 
+10082020 - 18082020
 
 ## Objective
 
@@ -106,6 +106,7 @@ colorlinks: true
 - Summary of the background
 
 ![](../images/14082020_-ade_background_all_strains.png)
+
 ![](../images/14082020_-ura_background_all_strains.png)
 
 - [x] Plate 200ul from the induction culture in -ade and 1000X in -ura to know the number of ade+ cells before reseeding. At T=51h of induction, at 13:00.
@@ -114,34 +115,63 @@ colorlinks: true
 
 | Strain  |  OD start T=0  |OD T=24h |OD stop T=51h | Time-Induction | ADE+/ml-start| ADE+/ml-24H |ADE+/ml-stop
 |---|---|---|---|---|---|---|---|
-| ylic133_1  | 0.2 | 4.7 |5.4 | 51h  | - |  | |
-| ylic133_2  | 0.2  | 11.7 |**13.9**  |  51h | ~150|  | |
-| ylic135_1 | 0.1  | 2.23 |6.5  | 51h  |- | | |
-| ylic135_2  | 0.1   | 2.17 |6.3  | 51h  | -| | |
-| ylic136_1  | 0.2   | 11.7 |**13.8**  | 51h  |~400 | | |
-| ylic136_2 | 0.2  | 11.3  |**12.9** |  51h | ~400| | |
+| ylic133_1  | 0.2 | 4.7 |5.4 | 51h  | 330 | 500 | 7500|
+| ylic133_2  | 0.2  | 11.7 |**13.9**  |  51h | 180| 3500 | 5000 |
+| ylic135_1 | 0.1  | 2.23 |6.5  | 51h  |150 | 200 |350 |
+| ylic135_2  | 0.1   | 2.17 |6.3  | 51h  | 50| 75 | 100 |
+| ylic136_1  | 0.2   | 11.7 |**13.8**  | 51h  |600 | 5000 | 10000|
+| ylic136_2 | 0.2  | 11.3  |**12.9** |  51h | 500| 3000| 7500 |
 
 
+![](../images/17082020-induction_approx_stats.png)
 
-- OD of the reseeding culture at T=0
-
-| Strain  |  OD 10x dilution  | ReaL OD | Time- Reseeding | 
-|---|---|---|---|
-| ylic133_2  | 0.025 |  0.25 | 0h  |
-| ylic136_1  | 0.027 | 0.27 |  0h |
-| ylic136_2 | 0.018 | 0.18 | 0h  |
+![](../images/17082020-induction-plating-strains-for-reseeding.png)
 
 
-- Reseed at 13:30 
+- [x] Reseed at 13:30 
+
+- **17082020**
+
+- [x] Check ADE+ cells during induction. Counting colonies from each plate. 
+  - Image J protocol: 
+    1. select image of interest: circle tool and edit-> clear outside
+    2. Image ->  Type -> 16bits
+    3. Make sure to capture the maximum number of right colonies: Image -> Adjust -> Threshold . Make sure the colonies are all red.
+    4. Process -> Make binary-> Watershed
+    5. Analyse ->  Analyse Particles 
+
 
 
 - **18082020** 
-- [ ] OD measurement for T=92h after reseeding at 12:00
-- [ ] Plate 200ul with 2000X dilution in SD-Ade , and 20ul with 40000X dilution in SD-ura to estimate the growth of ade+cells compared with the T=0 of reseeding. Expect  that the ade+ cells have grown by a factor of ~1000x. 
-- End of reseeding and Harvest of the cell culture. 
+- [x] OD measurement for T=92h after reseeding at 12:00
+- [x] Plate 200ul with 1000X dilution in SD-Ade , and 200ul with 40000X dilution in SD-ura to estimate the growth of ade+cells compared with the T=0 of reseeding. Expect  that the ade+ cells have grown by a factor of ~1000x. 
+- End of reseeding 
+- [x] Harvest of the cell culture. 
+  - 15ml of solid pellet, frozen in -80C. The pellet is pink !
+
+
+| Strain  |  OD START | OD STOP | Time- Reseeding | ADE+/ml-stop|
+|---|---|---|---|---|
+| ylic133_2  | 0.25 | 8.3  | 90h  | |
+| ylic136_1  | 0.27 | 10.2 |  90h | |
+| ylic136_2 | 0.18 | 9.5  | 90h  | |
 
 
 
 ## Results
 
+- For the strain ylic135 it did not work, because it is very miserable to culture with others. It grows much more slower , so maybe growing it more and with less volume , for next time. Also ylic135 gives a relatively high background compared with the growth in -URA. 
+
+- The way of computing the number of colonies in highly dense plates is pretty inaccurate with the best tool to do it which is ImageJ. So I think that is why I get like an order of magnitude lower than the number of colonies expected by Benoit. 
+
+-  The pellet from the reseed culture was pink , which could mean that there were many cells ade- that did not have any transposon event. Hence I suspect the sequencing/transposon coverage will be not optimal. 
+
+
+## Next steps
+
+- DNA sequencing protocol 
+- Repeat the SATAY for ylic135 from the beginning 
+
 ## Conclusion
+
+- First round of SATAY :) with WT and dnrp1 strains. 

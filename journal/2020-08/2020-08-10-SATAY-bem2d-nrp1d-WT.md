@@ -147,15 +147,17 @@ colorlinks: true
 - [x] Plate 200ul with 1000X dilution in SD-Ade , and 200ul with 40000X dilution in SD-ura to estimate the growth of ade+cells compared with the T=0 of reseeding. Expect  that the ade+ cells have grown by a factor of ~1000x. 
 - End of reseeding 
 - [x] Harvest of the cell culture. 
-  - 15ml of solid pellet, frozen in -80C. The pellet is pink !
+  - 15ml of solid pellet, frozen in -80C. The pellet is pink (?)
+  ![](../images/19082020-pink-cell-pellet.png)
 
 
 | Strain  |  OD START | OD STOP | Time- Reseeding | ADE+/ml-stop|
 |---|---|---|---|---|
-| ylic133_2  | 0.25 | 8.3  | 90h  | |
-| ylic136_1  | 0.27 | 10.2 |  90h | |
-| ylic136_2 | 0.18 | 9.5  | 90h  | |
+| ylic133_2  | 0.25 | 8.3  | 90h  | 3295000|
+| ylic136_1  | 0.27 | 10.2 |  90h | 5350000 |
+| ylic136_2 | 0.18 | 9.5  | 90h  | 3070000 |
 
+![](../images/20082020-stats-reseeding.png)
 
 
 ## Results
@@ -166,6 +168,7 @@ colorlinks: true
 
 -  The pellet from the reseed culture was pink , which could mean that there were many cells ade- that did not have any transposon event. Hence I suspect the sequencing/transposon coverage will be not optimal. 
 
+- The number of ADE+ cells after reseeding is around 1000X times higher than at then of the induction which is what was expected :) 
 
 ## Next steps
 

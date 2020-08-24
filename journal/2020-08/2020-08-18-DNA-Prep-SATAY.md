@@ -191,6 +191,19 @@ Genomic DNA extraction and enzymatic lisis (https://www.elabjournal.com/members/
 
 ## Next steps
 
-- [ ] Do the DNA genomic extraction of ylic136_2 as well following Benoit protocol. 
+- [x] Do the DNA genomic extraction of ylic136_2 as well following Benoit protocol. 
+
+24082020: ylic136_2 Genomic DNA extraction. 
+
+**what I did differently:**
+
+- In step 7 I did pipette a bit more in and out , despite the pellet is really hard to resuspend completely. (Maybe that was what caused a bit more RNAs at the end than previous strains , look at the gel)
+- In step 8 I added 0.1V of NaOAc of 200ul+500ul (the volume with RNAse and EtOH), so 70ul in total , NOT 20ul as previously. Because I did 0.1V of 200ul (Volume with the RNAseA )
+
+DNA concentration, quantified on gel, using ImageJ: 72.5ng/uL , which lead to a final concentration of ~21ng. :) 
+
+![](../images/24082020-ylic136_2-DNA-extraction.png){width=50%}
 
 ## Conclusion
+
+- The DNA extraction was OK to continue for the next steps. 

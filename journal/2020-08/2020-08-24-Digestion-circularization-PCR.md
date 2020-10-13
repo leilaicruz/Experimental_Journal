@@ -146,6 +146,53 @@ Per PCR:
 
 ![18092020-Benoit primers with WT and dnrp1_1 strains](../images/18092020-PCR-suing-benoit-primers-ylic133_ylic136_1-WEIRD.png){width=50%}
 
+###  Repetition of the whole procedure using negative controls
+
+#### Digestion
+
+05102020: 
+
+- Using DNA from ylic136_2 for digestion
+- negative control: DNA + DPNII buffer + MiliQ
+- 50ul total volume digestion with 27uL DNA (75ng/ul) to reach 2ug of DNA
+
+![](../images/06102020-digestion-ylic136-DNA-with-negative-control.png)
+
+#### Ligation and PCR
+
+06102020:
+
+- One important change from previous ligation is to use **1ul** of linear acrylamide instead of 5uL as I was using (by miscalculation)
+
+PCR using 2ul of DNA template :
+
+- New Primers used , larger primers to avoid primer dimerization: 
+
+  E1_HT48_MiniDS_FW	GCTTAGGTAGTGCTGGTCGTAGTGAGAGCTGAAtccgtcccgcaagttaaata
+  E2_HT49_MiniDS_RV	AGGTCAGTCACATGGTTAGGACGCAGATAGACAacgaaaacgaacgggataaa
+
+
+- The PCRs
+![DNA degradation in NIaIII line](../images/07102020-PCR-with-new-primers-and-negative-control.png)
+
+PCR using 9.32ul of DNA template :
+![More DNA degradation in NIaIII line](../images/08102020-PCR-9.32ul-dna-in-20ul-pcr-with-new-primers.png)
+
+### Tracking down the DNA degradation for the NIaIII digested DNA 
+
+- Making a new digestion with controls on the NIaIII buffer , and with old and new stocks of both of them , buffer and enzyme. 
+- The digestion was **NOT performed with non stick RNA free tubes** , just normal eppis. 
+
+- This new test will be scaled down to 5ul total volume for the digestion.
+
+|  	| Testing the buffer 	| Testing the digestion 	| Testing the DNA 	|
+|-	|-	|-	|-	|
+| With new and old<br>stocks of buffer<br>and enzyme 	| - 2.7ul DNA<br>- 0.5ulBuffer (new/old stock)<br>- 1.8ul MiliQ 	| - 2.7ul DNA<br>- 0.5ul Buffer (new/old stock)<br>- 0.5ul NIaIII (new/old stock)<br>- 1.3ul MiliQ 	| - 2.7ul DNA<br>- 2.3ul MiliQ 	|
+
+![](../images/13012020-digestion-test-NIaIII.png)
+
+- Ligation next day 
+
 ## Results
 
 - The first attempt of the PCR did not work , I got no bands , maybe something went wrong in the ligation part.
@@ -154,5 +201,7 @@ Per PCR:
   - Primer dimers clearly visible 
   - I see the untransposed plasmid band for DpnII in the non diluted DNA sample and a bit of smear , while I can not see anything for the 50X diluted one. 
   - For NIaIII I see the smear for the 50X diluted sample and not the band for the untransposed plasmid. The smear is bit high compared with the reference. **does that mean that I have low coverage (long pieces between MiniDs in the genome)?**. I dont see anything for the non diluted sample. 
+
+- Degradation noticed for the PCR done on NiaIII digested DNA 
 
 ## Conclusion

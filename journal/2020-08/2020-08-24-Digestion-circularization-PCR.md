@@ -30,7 +30,7 @@ colorlinks: true
 
 ## Date
 
-26082020-
+26082020-14102020
 
 ## Objective
 
@@ -192,6 +192,11 @@ PCR using 9.32ul of DNA template :
 ![](../images/13012020-digestion-test-NIaIII.png)
 
 - Ligation next day 
+  - Resuspend the washed DNA in 10ul MiliQ
+  - I use all the DNA from the ligation : 9.32ul DNA for 20ul PCR
+  - Primer-set : E1 48Fwd /E2 49Rev
+
+![](../images/14102020-succesful-test-NiAIII.png){width=80%}
 
 ## Results
 
@@ -205,3 +210,5 @@ PCR using 9.32ul of DNA template :
 - Degradation noticed for the PCR done on NiaIII digested DNA 
 
 ## Conclusion
+
+- After many tests I can conclude that my samples are OK for satay sequencing because I got the expected results in gel for DpnII and NIaIII digestion. 

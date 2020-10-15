@@ -114,17 +114,19 @@ Genomic DNA extraction and enzymatic lisis (https://www.elabjournal.com/members/
 - The nanodrop give non trustable results because this prep is very dirty. In my case when measured give like ~1 ug/ul and I have 300ul so I would have like 300ug of DNA , which is a lot! The expected amount for 500mg pellet is from 40-60ug DNA. See [the recommendations from Benoit](https://sites.google.com/site/satayusers/complete-protocol/dna-prep)
 
 - Gel quantification with the ladder intensity at 10:35. 
-    - 10X dilution sample from the supernatant (without vortexing it).
-    ![](../images/20082020-smartladder-gridswhite.png)
+    - 10X dilution sample from the supernatant (without vortexing it)
+
+    ![](../images/20082020-smartladder-gridswhite.png){width=40%}
 
     ![](../images/2082020-gel-genomic-dna-enzo-protocol.png){ width=50% }
+
     - very light the upper bands that indicate a very low concentrated genomic DNA, and a very high concentration of RNAs at the bottom. 
 
 **21082020**
 
  - [x] Try the protocol for DNA extraction from Benoit, to see the differences with this one. 
  - Protocol from [HERE](https://sites.google.com/site/satayusers/complete-protocol/dna-prep): 
-1. A 500 mg cell pellet is resuspended with 500 μl Cell Breaking Buffer (2% Triton X-100, 1% SDS, 100 mM NaCl, 100 mM Tris-HCl pH8.0, 1 mM EDTA) and distributed in 280μl aliquots.
+1. A 500 mg cell pellet is resuspended with 500 $\mu$l Cell Breaking Buffer (2% Triton X-100, 1% SDS, 100 mM NaCl, 100 mM Tris-HCl pH8.0, 1 mM EDTA) and distributed in 280$\mu$l aliquots.
 
     - I used ylic133 and ylic136_1 pellet. Both weighted 516mg. 
     - Cell Breaking Buffer recipe with the available components for a 50mL final volume: 
@@ -135,39 +137,39 @@ Genomic DNA extraction and enzymatic lisis (https://www.elabjournal.com/members/
         - 100uL 0.5M EDTA
         - 42.15 mL MiliQ
 
-2. 200 μl Phenol:Chloroform:Isoamylalcool 25:25:1 and 300 μl glass 0.4-0.6mm unwashed glass beads are added to each aliquot.
+2. 200 $\mu$l Phenol:Chloroform:Isoamylalcool 25:25:1 and 300 $\mu$l glass 0.4-0.6mm unwashed glass beads are added to each aliquot.
 
     - safety measure: **Pipette the Phenol:Chloroform:Isoamylalcool 25:25:1 in the Fume Hood!!!**
     - I took the beads from the Genomic DNA extraction kit. (6 in total, 3 aliquots per strain)
 
 
-3. Samples are vortexed for 10 min at 4°C using a Disruptor Genie from Scientific Industrial (US Patent 5,707,861).
+3. Samples are vortexed for 10 min at 4C using a Disruptor Genie from Scientific Industrial (US Patent 5,707,861).
 
-4. 200 μl TE are added to each lysate, which are then centrifuged for 5 min at 16100x g, 4°C.
+4. 200 $\mu$l TE are added to each lysate, which are then centrifuged for 5 min at 16100x g, 4C.
 
-5. The upper layer (~400 μl) is transferred to a fresh tube, 2.5vol 100% EtOH are added and the sample mixed by inversion.
+5. The upper layer (~400 $\mu$l) is transferred to a fresh tube, 2.5vol 100% EtOH are added and the sample mixed by inversion.
 
-6. DNA is pelleted for 5 min at 16100x g, 20°C.
+6. DNA is pelleted for 5 min at 16100x g, 20C.
 
-7. The supernatant is removed and the pellets resuspended in 200 μl RNAse A 250 μg/ml for 15 min at 55°C, 1000 rpm on a Thermomixer comfort (Eppendorf).
+7. The supernatant is removed and the pellets resuspended in 200 $\mu$l RNAse A 250 $\mu$g/ml for 15 min at 55°C, 1000 rpm on a Thermomixer comfort (Eppendorf).
 
     - I did not pipetted in and or vortex when I added the RNAase A, I just put the eppi with tape in a plastic cap that was shaking at 250rpm at 55C (incubator from the lab). After it finished I vortexed the tubes since the protocol said it should shake at 1000rpm . There was still a pink pellet like flake hard to resuspend again with ethanol. 
 
 8. 2.5 vol 100% EtOH and 0.1vol NaOAc 3 M pH5.2 are added and the samples mixed by inversion.
 
-9. DNA is pelleted by centrifugation for 5 min at 16100x g, 20°C.
-10. The pellets are washed with 70% EtOH under the same conditions, the supernatant removed completely, and the pellets let dry for 10 min at 37°C.
+9. DNA is pelleted by centrifugation for 5 min at 16100x g, 20C.
+10. The pellets are washed with 70% EtOH under the same conditions, the supernatant removed completely, and the pellets let dry for 10 min at 37C.
 
-11. The pellets are resuspended in a total volume of 100 μl water for 10 min at 55°C, 700 rpm on a Thermomixer comfort (Eppendorf).
+11. The pellets are resuspended in a total volume of 100 $\mu$l water for 10 min at 55C, 700 rpm on a Thermomixer comfort (Eppendorf).
 
     - when I pipette in and out I could be able to resuspend entirely the pellet like flake. 
 
-12. DNA is run on a 0.6% 1X TBE agarose gel against a standard 1 kb GeneRuler, and quantified using FiJi. 500mg cell pellet should yield approximately 20-60 μg DNA. Always quantify on gel. Absorbance reading of this sort of "dirty" prep yields entirely meaningless results!!!
+12. DNA is run on a 0.6% 1X TBE agarose gel against a standard 1 kb GeneRuler, and quantified using FiJi. 500mg cell pellet should yield approximately 20-60 $\mu$g DNA. Always quantify on gel. Absorbance reading of this sort of "dirty" prep yields entirely meaningless results!!!
 
     - at 15:25 I put the gel on 1% agarose 120V for 30 mins. 
     - I added non diluted samples from Enzo's protocol without dilution. I took only the supernatant and trashed the pellet. 
 
-    ![Good results!!](../images/21082020-gel-benoit-protocol-succesful.png){width=50%}
+    ![Good results!!](../images/21082020-gel-benoit-protocol-succesful.png){width=30%}
 
     - No RNAs at the bottom :) 
 
@@ -202,7 +204,7 @@ Genomic DNA extraction and enzymatic lisis (https://www.elabjournal.com/members/
 
 DNA concentration, quantified on gel, using ImageJ: 72.5ng/uL , which lead to a final concentration of ~21ng. :) 
 
-![](../images/24082020-ylic136_2-DNA-extraction.png){width=50%}
+![](../images/24082020-ylic136_2-DNA-extraction.png){width=30%}
 
 ## Conclusion
 

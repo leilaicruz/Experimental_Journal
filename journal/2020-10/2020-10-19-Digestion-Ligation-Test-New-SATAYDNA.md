@@ -59,4 +59,8 @@ To test if the new DNA extraction from the pellets of WT, $\Delta$nrp1_1, $\Delt
 
 ![](../images/20102020-digestion-new-DNA-extraction.png)
 
+### Ligation
+
+- 
+
 ## Conclusion

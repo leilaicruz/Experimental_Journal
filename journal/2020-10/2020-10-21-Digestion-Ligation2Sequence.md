@@ -90,3 +90,4 @@ To do all the steps in order to send my samples of WT, and dnrp1 strains to sequ
 
 ## Conclusion
 
+- The libraries are OK to send to sequence. 

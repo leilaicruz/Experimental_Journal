@@ -54,4 +54,19 @@ colorlinks: true
 
 ![](../images/27112020-dna-and-pcr-oll401-402-and-51-52-primers.png)
 
+### Next steps
+
+- Two PCRs protocol with 1ul and 10ul ywt04a template with oLL401/402 primers using **Wessel PCR protocol** with 1min in the annealing temperature, instead of 30secs which is how he originally used (no reason). The differences between the two protocols is the extension time, in one is 1min and the other one 2mins. 
+  - 3mins in 98C
+  - 30X(30s in 98C, 1min in 65C, 1min in 72C)
+  - 12 mins in 72C
+  - 4C on hold
+
+![](../images/30112020-dna-and-pcr-oll401-402-10ultemplate-2mins-extension-SUCCESFUL.png)
+
+- Repeating the PCR with 34X cycles , 10uL template and 2mins 72C extension. (8X) for transformation. 
+
+
+
+
 ## Conclusion

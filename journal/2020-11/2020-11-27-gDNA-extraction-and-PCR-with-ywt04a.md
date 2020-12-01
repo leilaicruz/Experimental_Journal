@@ -62,11 +62,19 @@ colorlinks: true
   - 12 mins in 72C
   - 4C on hold
 
-![](../images/30112020-dna-and-pcr-oll401-402-10ultemplate-2mins-extension-SUCCESFUL.png)
+![](../images/30112020-dna-and-pcr-oll401-402-10ultemplate-2mins-extension-SUCCESFUL.png){width=50%}
 
-- Repeating the PCR with 34X cycles , 10uL template and 2mins 72C extension. (8X) for transformation. 
+- Repeating the PCR with 34X cycles , 10uL template and 2mins 72C extension. (8X) for transformation. (I used the pCR machine from downstairs)
 
+  - It did not give any product (super weird!)
 
+  - I pulled everything together with the previous PCR and purify it (10uL elution) and I got still very low yield ~8ng/uL. 
 
+  ![](../images/01122020-pure-PCR-10ul-elution-very-low-not-enough-for-transformation.png){width=50%}
+
+- Repeat the PCR with the same PCR machine as the one that worked. 
+  - I reduced the time in the annealing temperature from 1min to 30secs. This actually does not make any influence on that. 
+- Repeat the genomic extraction (I ran out of DNA) 
+  - I cultured 2 tubes of 10mL to do completely. 
 
 ## Conclusion

@@ -73,8 +73,23 @@ colorlinks: true
   ![](../images/01122020-pure-PCR-10ul-elution-very-low-not-enough-for-transformation.png){width=50%}
 
 - Repeat the PCR with the same PCR machine as the one that worked. 
-  - I reduced the time in the annealing temperature from 1min to 30secs. This actually does not make any influence on that. 
+  - I reduced the time in the annealing temperature from 1min to 30secs. This actually does not make any influence on that. (**It did not work - I did not get any bands**)
 - Repeat the genomic extraction (I ran out of DNA) 
   - I cultured 2 tubes of 10mL to do completely. 
+
+  ![](../images/03122020-ywt04-high-yield-DNA-extraction.png){width=20%}
+
+  |  	| Nanodrop 	| On Gel (BioRad) 	|
+|-	|-	|-	|
+| DNA-ywt04a 	| 60ng/uL 	| 180ng/uL 	|
+
+  - very high yield of DNA !! :)
+
+- PCR using 1uL yll3a , 1uL ywt04a and olic51/52 primers and spy1/spy2 primers from Els as a positive control. 
+  - I changed the annealing temperature to 60C , 30 secs
+
+  ![It worked now :)](../images/03122020-SUCCESFUL-PCR-with-olic51-52-primers.png)
+
+- Do 8 PCRs with 1ul ywt04a template and with olic51/52 primers for transformation.
 
 ## Conclusion

@@ -56,4 +56,8 @@ colorlinks: true
 ## Conclusion
 
 - High efficient transformation :)
-- The negative controls have some colonies, very localized in one place, which could mean that in that region there was not enough NAT. I spread NAT with glass beads
+- The negative controls have some colonies, very localized in one place, which could mean that in that region there was not enough NAT. I spread NAT with glass beads. 
+
+## Next steps
+
+- Culture single colonies (6) per strain to freeze in glycerol stocks to check  later their integration with PCR.

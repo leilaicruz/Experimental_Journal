@@ -12,3 +12,9 @@ about: Use this template for documenting an experimental test
 ## Metric (*And measure...*) 
 
 ## Criteria (*We are right if...*)
+
+## Observation (*We observed...*)
+
+## Learnings and insights (*From that we learned that...*) 
+
+## Decisions and actions (*Therefore we will...*)

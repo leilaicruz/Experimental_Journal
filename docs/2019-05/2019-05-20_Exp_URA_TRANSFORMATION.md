@@ -1,4 +1,4 @@
-# Title: URA transformation in ADE2 locus :x: :disappointed:
+# Title: URA transformation in ADE2 locus
 
 # Date
 20052019

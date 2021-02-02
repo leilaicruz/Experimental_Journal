@@ -61,6 +61,14 @@ To check that the transformation were inserted in the right locations
    - I used both set of primers in all the templates. 
  - 27012021: repeat the PCR with the right primers concentration and the same colonies I have kept in MiliQ in eppis. 
    - use 5ul of template
+ - [x] Restreak more colonies from the original selection plate from the transformation for dbem3 on YPD+NAT plate. 
+   - I restreak like 16 colonies more and surprisingly they showed very miserably growth after a weekend growth period. 
+   - PCR on the three more grown colonies with SPY1/2 and oLL401/402 primer sets, and the same protocol as before.
+     - **NO PCR PRODUCT**
+     - ![](../images/02022021-FAILURE-check-for-dbem3-colonies.png)
+  
+   1. From the grown clones then do colony PCR on them and grow them on liquid media. 
+  
 
 ## Results
 
@@ -73,8 +81,7 @@ To check that the transformation were inserted in the right locations
   - All checked bem3d colonies are not correct because the band shown for the oLL401/042 primers indicates that BEM3 is present in them.
   
 ## Next Steps
-1. Restreak more colonies from the original selection plate from the transformation for dbem3 on YPD+NAT plate. 
-   1. From the grown clones then do colony PCR on them and grow them on liquid media. 
-2. Sequencing of correct mutants on bem3::NAT transformation. 
-3.  
+
+1. - [ ] Sequencing of correct mutants on bem3::NAT transformation. 
+
 ## Conclusions

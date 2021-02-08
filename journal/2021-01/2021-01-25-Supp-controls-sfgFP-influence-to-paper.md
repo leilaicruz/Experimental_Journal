@@ -53,7 +53,10 @@ cref: true
 | *$\Delta$bem1 $\Delta$ bem3 GAL1-sfGFP-CDC42* 	| YWKD070a,YWKD070c 	|
 - Measure in 0,0.06% and 0.1% Galactose concentrations in 36C , using two technical replicates per plate . (If possible do two plates)
 - Booking of the plate reader Biotek on 10022021
-  - Incubation on 08022021
+  - [x] Incubation on 08022021
+  - [x] Layout modified in the moment (because a pipette mistake):
+  ![](../images/08022021-layout.png)
+  
 
 ### Protocol
 
@@ -62,6 +65,8 @@ cref: true
   - Then, using a multi-pipette, 10 μl of cells of this plate are transferred to a new plate which has 90 μl of media in the same layout, which dilutes the cells a factor of ten. This is then repeated for a new plate, where 5 μl of cells are transferred to 95 μl media, to ultimately accomplish a 200x dilution compared to the original plate. When making the dilution, wells are gently mixed before dilution by pipetting up and down. The 200x diluted plate is then sealed by a transparent sticker, and covered with the lid to minimize evaporation (and water is placed in the reservoirs as before).
 - Measurement protocol:
   - The first 1000s linearly pre-shakes (amplitude 1 mm) the plate, before shaking just before each measurement round in a 380 second interval. These rounds start with 90” linear shaking (amplitude 2 mm), 90” orbital shaking (amplitude 1.5 mm), 90” linear shaking (amplitude 1 mm), waiting 10” and then OD-600 +/-9 nm measurements (25 flashes, 5ms settle time). Rounds were executed in two consecutive loops of 24 hours, after which OD values were documented in a excel sheet.
+- Layout per plate: 
+  ![](../images/03022021-layout-plate.png)
   
 ## Results
 

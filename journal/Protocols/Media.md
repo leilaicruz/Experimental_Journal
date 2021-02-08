@@ -1,9 +1,8 @@
-
 ---
 title: "Media for yeast culturing"
 output: pdf_document
 documentclass: article
-classoption: twocolumn
+classoption: onecolumn
 pdf_document:
 latex_engine: pdflatex
 toc: true
@@ -53,7 +52,7 @@ colorlinks: true
 1. To an autoclavable flask, add:
 
 
-|Reagent	Amount to add (per 100mL)| Liquid 	| Agar plates 	|
+|Reagent	Amount to add (per 100mL)| Liquid 	| Agar plates |
 |-| -	|-	|
 |Bacto agar | -	| 2g	|
 |Bacto peptone| 2g	| 2g	|
@@ -83,6 +82,7 @@ v. Allow agar mixture to cool and solidify.
 ## SC – URA (20 ml SC-URA each)- total amount: 400 mL
 
 Protocol:
+
 - Add 360 mL of MiliQ
 - Add 2,72 g  of  yeast nitrogen base.
 - Add 0.308g of amino acid URA drop-out mix
@@ -93,6 +93,7 @@ Protocol:
 ## SC – LEU2 (20 ml SC-URA each)- total amount: 400 mL
 
 Protocol:
+
 - Add 360 mL of MiliQ
 - Add 2,72 g  of  yeast nitrogen base.
 - Add 0.276 g of amino acid LEU2 drop-out mix

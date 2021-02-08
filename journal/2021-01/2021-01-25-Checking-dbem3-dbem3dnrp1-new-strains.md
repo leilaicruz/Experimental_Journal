@@ -65,23 +65,40 @@ To check that the transformation were inserted in the right locations
    - I restreak like 16 colonies more and surprisingly they showed very miserably growth after a weekend growth period. 
    - PCR on the three more grown colonies with SPY1/2 and oLL401/402 primer sets, and the same protocol as before. I used 5ul template.
      
-     - Try again same PCR with 1ul template
+   -  [x] Try again same PCR with 1ul template
   
   - Incubate in liquid media YPD+6x+NAT single colonies from the streak 1, 2 and 3 from dbem3 colonies. Also incubated the colony 1 mixed in MiliQ used for colony PCR in YPD+6x+NAT media to compare the consistency from the colony taken from the streak 1. 
+    - The only grown culture was from colony 1 from the plate. The one from the eppi did not grow (?)
+    - [ ] Colony PCR with the culture with colony 1. 
+      -  550ul  of 2x washed liquid culture in MiliQ and resuspended in 50uL MiliQ. I took 1uL template for PCR. 
+      -  PCR protocol: annealing temperature gradient to find the optimal conditions for this PCR. (56C,58C,60C,65C) and also increasing to 3mins the step with 98C which is the one who breaks the cell wall . In the previous experiments was set to 30secs, so maybe it is not sufficient to get enough template.
+      -  I also used 1uL gDNA from ywt04 as a positive control with oLL401/402 primers.  
   
 
 ## Results
 
 - No product from PCR
+- 
 ![](../images/27012021-PCR-test-nrp1-bem3-MISTAKE-WITH-BEM3-PRIMERS-CONCENTRATION.png)
+
 - Confirming three clones from dbem3dnrp1 strains (colonies 2,10 and 11). **The same clones that grew on liquid media YPD+NAT+HYGRO :)**
 - Glycerol stock storage: ylic138 a,b,c (3 biological replicates)
+  
 ![](../images/28012020-PCR-dbem3-dbem3dnrp1-spy1_2-oLL401_402.png)
 
   - All checked bem3d colonies are not correct because the band shown for the oLL401/042 primers indicates that BEM3 is present in them.
   - **NO PCR PRODUCT for dbem3 taken colonies** , 5ul template. 
-     - ![](../images/02022021-FAILURE-check-for-dbem3-colonies.png)
   
+    ![No PCR product](../images/02022021-FAILURE-check-for-dbem3-colonies.png)
+    
+  - **NO PCR PRODUCT for dbem3 taken colonies** , 1ul template. 
+  
+    ![Not conclusive PCR product](../images/02022021-FAILURE-check-for-dbem3-colonies-1ul-template.png)
+  
+- **NO PCR PRODUCT for dbem3 colonies. Correct positive control**
+  
+  ![](../images/04022021-FAILURE-dbem3-colony-PCR-good-positive-control.png)
+
 ## Next Steps
 
 1. - [ ] Sequencing of correct mutants on bem3::NAT transformation. 

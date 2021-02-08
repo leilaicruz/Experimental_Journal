@@ -73,6 +73,7 @@ To check that the transformation were inserted in the right locations
 ## Results
 
 - No product from PCR
+- 
 ![](../images/27012021-PCR-test-nrp1-bem3-MISTAKE-WITH-BEM3-PRIMERS-CONCENTRATION.png)
 - Confirming three clones from dbem3dnrp1 strains (colonies 2,10 and 11). **The same clones that grew on liquid media YPD+NAT+HYGRO :)**
 - Glycerol stock storage: ylic138 a,b,c (3 biological replicates)

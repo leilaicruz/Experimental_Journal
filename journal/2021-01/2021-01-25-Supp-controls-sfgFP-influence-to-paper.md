@@ -35,7 +35,7 @@ cref: true
 ## Objective
 
 - To discard the influence of the sfGFP on the Cdc42 dependency for growth
-- 
+
 ## Method
 
 - Strains:
@@ -56,6 +56,8 @@ cref: true
   - [x] Incubation on 08022021
   - [x] Layout modified in the moment (because a pipette mistake):
   ![](../images/08022021-layout.png)
+  - [x] Experiment started at 11:30 
+    - [x] Linear 3 mins:30 secs and  orbital 3 mins:30 secs shaking before each measurement at 36C
   
 
 ### Protocol
@@ -69,5 +71,7 @@ cref: true
   ![](../images/03022021-layout-plate.png)
   
 ## Results
+
+![](../images/12022021-sfGFP-controls-Biotek-overview-growth-curves.png)
 
 ## Conclusion

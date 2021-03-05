@@ -86,5 +86,51 @@ cref: true
 - Measuring at 36C at 11:00
   - 1uL of cells from incubation to 100uL media (easier to pipette)~100X dilution
 
+![](../images/19022021-print-screen-measuring-curves.png)
+
+### Checking the strains from the glycerol stocks
+
+#### Plating all glycerol stocks in selection media 
+
+- Plates: 
+  - CSM-URA +2% Raffinose + G418(for dbem1) + NAT(for dbem1dbem3)(for the plates , I autoclaved the agar with MiliQ and then added the SC-URA mixture with the sugar, one note here is that I added the SC-URA without filter sterilize to the 80C liquid agar.)
+  - Results of the plating(the plates do not seem to be contaminated): 
+  
+| Strain 	| Name 	| Growth plates from 25022021 |
+|-	|-	|- |
+| *BEM1 BEM3 CDC42* 	| YWKD062(2) 	| + |
+| *BEM1 BEM3 GAL1-CDC42* 	| YWKD071aI,YWKD071aII 	|- |
+| *BEM1 BEM3 GAL1-sfGFP-CDC42* 	| YWKD065a,YWKD065b,YIdB003 	|- |
+| *$\Delta$bem1 BEM3 CDC42* 	| YWKD063a,YWKD068a,YWKD063 	||
+| *$\Delta$bem1 BEM3 GAL1-CDC42* 	| YIdB005(2) 	|-|
+| *$\Delta$bem1 BEM3 GAL1-CDC42*  heterozygous diploid	| YWKD054a,b,c 	|+|
+| *$\Delta$bem1 BEM3 GAL1-sfGFP-CDC42* 	| YWKD069a(2) 	|-|
+| *$\Delta$bem1 $\Delta$bem3 CDC42* 	| YWKD067a(2),YWKD067b 	||
+| *$\Delta$bem1 $\Delta$bem3 GAL1-CDC42* 	| YWKD073aI,YWKD073aII 	|-|
+| *$\Delta$bem1 $\Delta$ bem3 GAL1-sfGFP-CDC42* 	| YWKD070a,YWKD070c 	|-|
+  
+#### Inoculating all glycerol stocks in selection media 
+
+- To mimic biotek conditions and se if there is a contamination on the stocks , I will :
+  - [x] Inoculate the cells to liquid media CSM-URA+2% Raffinose 
+  - [ ] Streak from the liquid culture to a plate of the same kind. 
+  
+| Strain 	| Name 	| Growth from liquid culture 26022021 |
+|-	|-	|- |
+| *BEM1 BEM3 CDC42* 	| YWKD062(2) 	| + |
+| *BEM1 BEM3 GAL1-CDC42* 	| YWKD071aI,YWKD071aII 	|- |
+| *BEM1 BEM3 GAL1-sfGFP-CDC42* 	| YWKD065a,YWKD065b,YIdB003 	|- |
+| *$\Delta$bem1 BEM3 CDC42* 	| YWKD063a,YWKD068a,YWKD063 	||
+| *$\Delta$bem1 BEM3 GAL1-CDC42* 	| YIdB005(2) 	|-|
+| *$\Delta$bem1 BEM3 GAL1-CDC42*  heterozygous diploid	| YWKD054a,b,c 	|+|
+| *$\Delta$bem1 BEM3 GAL1-sfGFP-CDC42* 	| YWKD069a(2) 	|-|
+| *$\Delta$bem1 $\Delta$bem3 CDC42* 	| YWKD067a(2),YWKD067b 	||
+| *$\Delta$bem1 $\Delta$bem3 GAL1-CDC42* 	| YWKD073aI,YWKD073aII 	|-|
+| *$\Delta$bem1 $\Delta$ bem3 GAL1-sfGFP-CDC42* 	| YWKD070a,YWKD070c 	|-|
+
 
 ## Conclusion
+- Unexpected growth of the pGal1 strains in 0% Gal from the bulk growth in the Biotek.
+- The phenotype check on liquid and solid media are consistent between each other.
+- What is striking is that ywkd062 did grow on SC-URA and it should not be because it is just a plain WT strain. 
+- Maybe for next biotek experiment we should incubate the cells in SC-URA media. 

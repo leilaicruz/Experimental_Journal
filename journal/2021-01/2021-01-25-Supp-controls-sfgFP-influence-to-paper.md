@@ -156,7 +156,12 @@ cref: true
    - [x] Plating in CSM+0.1% GAL (15032021)
    - CSM autoclaved media
    - 200ul of diluted glycerol stocks , 10ul cells in 500ul MiliQ, to facilitate the efficacy of the replica plate.
-   - [ ] Replica plating in CSM+0% Gal (wrong colonies should pop out) and CSM+0.1%Gal +G418 (Right colonies should pop out)
+   - [x] Replica plating in CSM+0% Gal (wrong colonies should pop out) and CSM+0.1%Gal +G418 (Right colonies should pop out)
+   - [x] For the colonies growing in CSM+0.1% Gal+G418 (they were a lot) I replica plated again in CSM+0%Gal + G418 and SC-URA +0.1% Gal+ G418 to filter more the colonies that should be right. (19032021)
+
+   ![Result from replica plating on selction plates to clean the dbem1 yIdb005 stock](../images/22032021-results-from-replica-plating-to-clean-yIdb005-stock.png)
+
+- [ ] prepare CSM-ura+2% Gal + G418 plates and streak there the glycerol stock . Only the right ones should pop out. Perhaps doing a colony PCR to check for the gal promoter and the bem1::KanMX(?)
 
 ## Conclusion
 - Unexpected growth of the pGal1 strains in 0% Gal from the bulk growth in the Biotek.

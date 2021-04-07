@@ -40,7 +40,7 @@ Transformation-2: To replace bem2 locus with the leu2 marker using the PCR produ
 
 ## Method
 - Following this [Yeast Transformation Protocol](../Protocols/Yeast-transformation.md)
-- Day0: 16:00 , Incubation of ylic133_5A from glycerol stock from 01202019 in YPD+6xADE. 10mL per transformation with its negative control.
+- Day0: 16:00 , Incubation of ylic133_5A from glycerol stock from 01202019 in YPD+6xADE. 10mL per transformation with its negative control. 6xADE=44mg/400mL =110mg/L , Benoit uses 40mg/L
 - Day1: Measure OD of overnight cultures
 
   | Sample |10X dilution OD  |Real OD|

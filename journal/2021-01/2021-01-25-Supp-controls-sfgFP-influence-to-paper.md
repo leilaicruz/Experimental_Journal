@@ -161,9 +161,18 @@ cref: true
 
    ![Result from replica plating on selction plates to clean the dbem1 yIdb005 stock](../images/22032021-results-from-replica-plating-to-clean-yIdb005-stock.png)
 
-- [ ] prepare CSM-ura+2% Gal + G418 plates and streak there the glycerol stock . Only the right ones should pop out. Perhaps doing a colony PCR to check for the gal promoter and the bem1::KanMX(?)
+- [x] prepare CSM-ura+2% Gal + G418 plates and streak there the glycerol stock . Only the right ones should pop out. Perhaps doing a colony PCR to check for the gal promoter and the bem1::KanMX(?)
+  - 200ul of diluted glycerol stocks , 10ul cells in 500ul MiliQ. 
+
+  ![](../images/2603201_yIdb005_NOT-GROW_2_PERCENT_GAL.png)
+
+  - perhaps there are not dbem1+pGal anymore in the stock or the gal promoter is lost ? 
+  - It seems there is not dbem1+pGal anymore in the stock , because there is no growth of any single colony in SC-URA+G418+2% Gal +2% Raffinose
+
+  ![](../images/29032021-No-gal1-promoter-in-yIdb005-strains-full-WT-contamination.png)
 
 ## Conclusion
+
 - Unexpected growth of the pGal1 strains in 0% Gal from the bulk growth in the Biotek.
 - The phenotype check on liquid and solid media are consistent between each other.
 - What is striking is that ywkd062 did grow on SC-URA and it should not be because it is just a plain WT strain. Maybe for next experiment we should use yll3a.

@@ -41,6 +41,26 @@ colorlinks: true
 - Yeast Transformation Protocol
 - 06042021: Incubation of ywkd071a in SC-URA+2%Gal+2% Raff 
 - 07042021: Culture not in log phase, only at late afternoon , around 15:00. I transfered the culture to room temperature to do the transformation on the next day. 
+- 08042021: OD measurement
+
+| strain   | OD 10x dilution | Real OD | Dilution to OD=0.5  | Real OD after dilution |
+|----------|-----------------|---------|---------------------|------------------------|
+| ywkd071a | 0.7             | ~7      | 10x                 | 0.4                    |
+
+  - Incubation started at 9:00 
+
+  - Start of transformation at 13:00 , with OD=1.3
+  - 10ul of DNA from PCR bem1:KANmx (~200ng/uL) = 2ug DNA
+  - 2h recovery step in SC-URA+2% Gal+2% Raff
+  - Plate in selection plates (Sc-URA+2%gal+2%raff +G418)
+    - 100ul 0x dilution (positive control) 
+    - 100ul 50x dilution (positive control)  
+    - 100ul 100X dilution (positive control)
+    - 100uL 0X dilution (negative control) 
+  - Plate in normal plates (SC-URA+2%gal+2%raff )
+    - 100uL 100X dilution (positive control) 
+    - 100uL 100X dilution (negative control) 
+    
 ## Results
 
 ## Conclusion

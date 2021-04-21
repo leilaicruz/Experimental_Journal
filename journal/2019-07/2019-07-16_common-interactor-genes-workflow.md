@@ -7,10 +7,10 @@ From the physical and genetic interactors of a specific gene, I am interested in
 This calculation can maybe triggers hypothesis about how  is the correlation in the amount of connectivity of one gene to another gene and the type of interactions they are more prone to share.
 
 Perhaps, it is like this:
-![](../images/Model_cartoon-05.png)
+![](../Images/Model_cartoon-05.png)
 
 The following picture depicts what I am looking for in the [SGD database](https://www.yeastgenome.org/) for every gene of interest:
-![](../images/cartoon-for-common-genes-workflow07.png)
+![](../Images/cartoon-for-common-genes-workflow07.png)
 
 The following python code depicts what I have done, that can be reused and improved  for other purposes.
 ## Python code
@@ -1157,4 +1157,4 @@ plt.xlabel('Percentage of the conection of interactors with_' + "".join(query),f
 plt.savefig("common_interactors_" + "".join(query) + ".svg",dpi=300,format='svg')
 ```
 ## Results Figure
-![Figure-showing-the-results](../images/output_common-genes-workflow.png)
+![Figure-showing-the-results](../Images/output_common-genes-workflow.png)

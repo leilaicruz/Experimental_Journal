@@ -76,13 +76,13 @@ In order to use the two options for recovery, namely, previous 2-4 hours incubat
 # Results -> I see colonies in 5FOA 😁
 
 #### Overnight recovery in liquid culture
-![](../images/overnight-recovery-liquid-culture-5foa.jpg)
+![](../Images/overnight-recovery-liquid-culture-5foa.jpg)
 #### Replica plate from overnight YPD plate to 5FOA
-![](../images/replica-plate-from-ypd-to-foa.jpg)
+![](../Images/replica-plate-from-ypd-to-foa.jpg)
 #### 3 hours recovery (one colony)
-![](../images/3h-recovery-5foa.jpg)
+![](../Images/3h-recovery-5foa.jpg)
 #### Negative control - after overnight culture in YPD
-![](../images/negative-control-ylic132-2.jpg)
+![](../Images/negative-control-ylic132-2.jpg)
 
 # Next steps
 - [x] Colony PCR
@@ -91,7 +91,7 @@ In order to use the two options for recovery, namely, previous 2-4 hours incubat
     - Dissolving in 20ul MiliQ and replated in YPD
     - Using primers 22 (Primer 9 ADE Forward Check) and primers 23 (Primer 10 Reverse Check)
 - [x] DNA Gel to see check bands according URA presence or not. Length for not presence 1046bp and otherwise 2065bp. IT SEEMS I HAVE SOME RIGHT COLONIES 😁😁
-![](../images/ylic132_2+oep2-2019-07-15-15hr-47min_edited.png)
+![](../Images/ylic132_2+oep2-2019-07-15-15hr-47min_edited.png)
 # Conclusion
  - Definitely, the recovery step is essential to get transformed cells in 5FOA plates
  - Now I dont see , this egg like structure of the yellow cells concentrated in the center and pink cells around. I dropped the extra adenine at the edge of the plate, and not dropping in the center.

@@ -38,6 +38,6 @@ colorlinks: true
 - [ ] Repeat the biotek measurements using the wt strain in order to compare these mutants relative to the WT. 
 - [ ] Make a PCR from inside the leu2 marker and bem2 to check the correct integration of bem2::leu2 transformants. (colony PCR or genomic) **still is not clear the differences I see in the selected biological replicates for bem2::leu2 mutants**
 
-    ![](../images/24042020-PCR-plan-for-bem2d-check.png)
+    ![](../Images/24042020-PCR-plan-for-bem2d-check.png)
 
 

@@ -45,7 +45,7 @@ To set up a consistent FACs experiment with the microscopy experiments I did wit
       - Look for the postprocessing results, in this [folder](N:\tnw\BN\LL\Shared\Leila\Images-postprocessing-FACS-REZA)
 - Follow the same protocol as I followed for the microscopy measurements
 
-![Experimental Design for the microscopy measurements](../images/experimental-design-microscopy.png){#fig:experimental-design}
+![Experimental Design for the microscopy measurements](../Images/experimental-design-microscopy.png){#fig:experimental-design}
 
   - 15 hours of incubation in 2% Gal +2% Raff (i.e. overnight incubation from 17:00 to 08:00 )
   - Washing step  with CSM+2% Raff+0%Gal to the respective Galactose (at 08:00-09:00) concentrations. Incubate

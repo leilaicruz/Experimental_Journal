@@ -19,7 +19,7 @@ Essentially , they have to fulfill two main requirements:
 
 2nd line of plates: -ade plates
 
-![](../images/Plates-Byk832T.png)
+![](../Images/Plates-Byk832T.png)
 
 # Conclusion
 

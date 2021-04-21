@@ -74,7 +74,7 @@ In 2009 IEEE International Conference on Bioinformatics and Biomedicine.
 ### Feature encoding: 
  - Use of the protein domains to find correlations with existing synthetic lethals pairs in order to predict new ones. 
 
- ![Feature encoding graphical visualization](../images/feature-encoding-06042020-predicting-SL-from-protein-domains.jpg){#fig:feature width=50%}
+ ![Feature encoding graphical visualization](../Images/feature-encoding-06042020-predicting-SL-from-protein-domains.jpg){#fig:feature width=50%}
 
 <!-- ----------------------
 

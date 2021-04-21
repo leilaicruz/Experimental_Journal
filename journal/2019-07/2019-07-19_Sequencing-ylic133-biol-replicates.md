@@ -19,9 +19,9 @@ To finally check that neither the adenine , neither ura is in the genome of thes
 # Results :)
 
 - The results shows a complete coverage of the DNA without URA and ADE2
-![](../images/Chrom_XV-ade2-ura-ura-sequencing-Map.png)
+![](../Images/Chrom_XV-ade2-ura-ura-sequencing-Map.png)
 - With the DNA with URA , we can see that we dont have any URA contained in any of the ylic133 biological replicates. :)
-![](../images/Chrom_XV-ade2-ura-sequencing-Map.png)
+![](../Images/Chrom_XV-ade2-ura-sequencing-Map.png)
 
 
 # Conclusion

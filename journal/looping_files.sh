@@ -1,3 +1,4 @@
+### for changing image to Image in all makrkdown files 
 for d in $(ls -d 20*) ; do
     echo "$d"
     cd ./$d

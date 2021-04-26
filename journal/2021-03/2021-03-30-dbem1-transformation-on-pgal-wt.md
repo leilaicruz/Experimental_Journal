@@ -124,5 +124,13 @@ From Figure [@fig:colony-pcr-colony-9] we can see that colony 9 shows all the ex
 
 - [x] plate them in SC-URA+2% RAff+2% Gal+G418(the contaminated stock)
 
+![](../Images/23042021-phenotype_checking_glycerol_stocks.png)
+
+- Growth of replicates from glycerol stocks in SC-URA+2%Gal+2%Raf+G418. 
+- No growth of yIdb005 in selection media (confirmation)
+- Miserable growth after 5 days in 0% Gal of the replicates. 
+
 
 ## Conclusion
+
+- we have two biological replicates of new dbem1:KanMx pGal-cdc42::URA : ylic139 a, b . 

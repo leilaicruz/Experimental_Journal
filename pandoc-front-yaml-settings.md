@@ -19,7 +19,6 @@ secPrefix:
   - "Sections"
 fontsize: 12pt
 geometry: margin=0.5in
-bibliography: bibliography.bib
 autoEqnLabels: true
 cref: true
 crossref: true

@@ -2,7 +2,7 @@
 title: "Biotek experiment for new dbem1 strain"
 output: pdf_document
 documentclass: article
-classoption: twocolumn
+classoption: onecolumn
 pdf_document:
 latex_engine: pdflatex
 toc: true
@@ -45,6 +45,15 @@ colorlinks: true
 
 ![Layout of the plate](../Images/26042021-biotek-layout.png)
 
+- 200x dilution from incubation to measuring : 0.5ul cells in 100ul media. 
+
 ## Results
 
+![End of incubation](../Images/28042021-ylic139-biotek-end-of-incubation.png)
+
+![End of measuring](../Images/30042021-ylic139-biotek-end-of-measuring.png)
+
 ## Conclusion
+
+- Notice that the new dbem1 strain do not grow in 0% Gal after 48hours of dilution in 0% Gal.
+- The dbem1dbem3 strain seems very slow. 

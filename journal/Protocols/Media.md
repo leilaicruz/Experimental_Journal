@@ -74,12 +74,14 @@ ii. Allow to cool before use.
 
 iii. Add 10mL of sterile 20% glucose per 100mL of media.
 
-iv. While still warm, pour media into 9-cm diameter plastic Petri dishes.
+iv. While still warm, pour media (around 20ml) into 9-cm diameter plastic Petri dishes.
 
 v. Allow agar mixture to cool and solidify.
 
 
-## SC – URA (20 ml SC-URA each)- total amount: 400 mL
+## SC – URA (20 ml SC-URA each)
+
+- total amount: 400 mL
 
 Protocol:
 
@@ -90,7 +92,9 @@ Protocol:
 - Autoclave
 - Add 40 mL of 20 % dextrose (filter sterilized, add after autoclaving)
 
-## SC – LEU2 (20 ml SC-URA each)- total amount: 400 mL
+## SC – LEU2 (20 ml SC-URA each)
+
+- total amount: 400 mL
 
 Protocol:
 
@@ -100,3 +104,37 @@ Protocol:
 - Add 8g of Agar
 - Autoclave
 - Add 40 mL of 20 % dextrose (filter sterilized, add after autoclaving)
+
+## Special media: 
+
+### Low Fluorescence Complete Synthetic Media CSM-LF
+
+- total amount: 400 mL
+- sugar source: Raffinose 20%
+- sugar final concentration: Raffinose 2% 
+
+Protocol:
+
+- Add 360 mL of MiliQ
+- Add 2,76 g  of  yeast nitrogen base. (005 bottle)
+- 0.316g CSM (009 bottle )
+- Filter stirilize
+- Add 40 mL of 20 % raffinose (filter sterilized, add after autoclaving)
+
+### YPD+6xADE+Agar
+
+- total amount: 400 mL
+- sugar source: Dextrose 20%
+- sugar final concentration: Dextrose 2% 
+
+Protocol:
+
+- Add 60 mL of MiliQ
+- Add 4g  of  yeast extract
+- Add 8g peptone
+- Add 0.022g ADE 
+- Filter stirilize
+- Autoclave 300ml MiliQ + 8g Agar
+- Poor the filter stirilize mixture to the liquid agar. 
+- Add 40 mL of 20 % Dextrose (filter sterilized, add after autoclaving)
+- Poor 20ml to each plate. 

@@ -58,4 +58,15 @@ colorlinks: true
 ![](../Images/0805221-plate-1-and-2-incubation.svg.png)
 
 
+### After measuring
+
+![](../Images/1005221-plate-1-and-2-measuring.png)
+
+
+- Observations
+  - ywkd073 (dbem1dbem3) during the measuring part grows extremely miserable
+    - perhaps next time do not dilute 200x but 100x
+  - all gal strains shows the expected behaviour at 0% gal. (with the exception of ywkd071II and ywkd073II in plate 2)
+  - ylic139 (dbem1 pgal) shows growth already in 0.01% gal in both plates while ywkd069a (dbem1 pgal-sfGFP) in 0.05% gal. 
+
 ## Conclusion

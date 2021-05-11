@@ -70,3 +70,9 @@ colorlinks: true
   - ylic139 (dbem1 pgal) shows growth already in 0.01% gal in both plates while ywkd069a (dbem1 pgal-sfGFP) in 0.05% gal. 
 
 ## Conclusion
+
+- Data analysis:
+
+![](../Images/10052021-biotek-data-analysis-by-werner.png)
+
+- Next experiment on 17052021

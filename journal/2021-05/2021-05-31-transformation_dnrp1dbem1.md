@@ -74,4 +74,7 @@ cref: true
 - It seems clone 2 from both strains is right. 
 
 
+- [x] Inoculation of colony 1 and 2 from the restreak from ylic136+dbem1::kanMX (ylic140) in YPD+HYGRO+G418+extra adenine
+- [x] Inoculation of colony 2 and 4 from the restreak from ylic138+dbem1::kanMX (ylic140) in YPD+HYGRO+G418+NAT+ extra adenine
+
 ## Conclusion

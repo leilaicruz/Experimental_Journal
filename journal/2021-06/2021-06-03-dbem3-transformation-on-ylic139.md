@@ -71,13 +71,58 @@ colorlinks: true
 
 - Purified PCR concentration: 90 ng/ul , having around 40ul , which gives as a total amount approximately : 3.6ug 
 - For Transformation I should around 2ug , so around 22ul .
+
 ### Incubation results
 
-- Not growth after overnight incubation by ylic139 
+- Not growth after overnight liquid incubation by ylic139. 
 
-**Change of strategy**: Plate ylic139 in CSM plates with Gal and G418 and take a single colony to inoculate in liquid culture. 
+**Change of strategy**: Plate ylic139 in CSM plates with Gal and G418 and take a single colony to inoculate in liquid culture. (01072021)
 
-- [x] I used already made CSM+0.1%Gal that I added 1.5ml of 20% gal . Once they get dry I will add 300ul 500x G418 and streak the cells from glycerol stock. 
+- [x] I used already made CSM+0.1%Gal that I added 1.5ml of 20% gal . Once they get dry I will add 30ul 500x G418 and streak the cells from glycerol stock. 
+
+  - There were cells on the plate after growth during weekend, so I took two single colonies, from ylic139a and ylic139b and inoculate in 4xCSM-NF+2% Raff+2% Gal+G418 500x(20ul) at 9:30.
+
+### Transformation
+
+- OD measurement on 06072021
+
+| Time           | Strain    | OD- 2x diluted | real OD |
+|----------------|-----------|----------------|---------|
+| 11:00/06072021 | ylic139_a | 0.275          | 0.55    |
+|                | ylic139_b | 0.137          | 0.27    |
+| 15:00/06072021 | ylic139_a | 0.279          | 0.56    |
+|                | ylic139_b | 0.222          | 0.44    |
+| 08:45/07072021 | ylic139_a | 0.3            | 0.6     |
+|                | ylic139_b | 1.127          | 2.24    |
+
+- [x] Transformation with PCR (ywt04/olic51/52) on 07072021
+
+  - 25ul of DNA from purified PCR -> 25ul*90ng/ul=2.25ug
+  - Recovery step , from 10:30->12:30 in 4x CSM+2% Raff +2% Gal
+  - Plating:
+    - selection plates: SC-URA(4x)+ 2%Raff+2% Gal + G418+NAT
+    - After the recovery I centrifuged the samples and resuspend them in 100ul MiliQ .
+      - I plated the transformed cells 50ul from this tube , 0X dilution.
+      - I added 950 ul MiliQ to the rest and plate 50ul in one plate and 200ul in other one.
+      - Plate 200ul in CSM+0.1% Gal to check viability. 
+      - Plate 50ul of 0x non transformed cells in selection plates.
+      - Plate 200ul of 10x non transformed cells in CSM+0.1% Gal to check for viability. 
+
+- Transformation plates
+
+![](../Images/12072021-all-plates.jpg)
+
+  - Very few colonies , it seems it was a hard transformation. 
+- Colony PCR
+
+  - 8 colonies, colony 2 and 3 were big , the rest small.
+  - Transfer colonies/ streak into CSM+0.1% Gal + NAT 
+  - 5ul MiliQ suspension, 10ul MiliQ for the big colonies
+  - 1ul used for PCR (LEILA_60)
+
+  ![](../Images/12072021-colony-pcr-one-succesful-colony.png)
+
+  - colony 3 seems the only right , which was a big colony. See the growth in CSM+0.1% Gal +NAT to store it in glycerol stock. 
 
 
 ## Conclusion

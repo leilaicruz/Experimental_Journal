@@ -25,11 +25,11 @@ crossref: true
 colorlinks: true
 ---
 
-# Title : Contruction dbem1dbem3+pGal from ylci139
+# Title : Contruction dbem1dbem3+pGal from ylic139 -> ylic140
 
 ## Date
 
-30062021-
+30062021-15072021
 
 
 ## Objective
@@ -124,7 +124,13 @@ colorlinks: true
 
   - colony 3 seems the only right , which was a big colony. See the growth in CSM+0.1% Gal +NAT to store it in glycerol stock. 
 
-
+- Re-streak and liquid incubation
+  - restreak of the colonies for PCR in CSM+0.1% Gal +NAT
+  - Inoculate colony 2 and colony 3 (the ones that grew and big colonies) in CSM+2% Gal+G418+NAT (5mL) for glycerol stocks. 
+  
 ## Conclusion
 
 - The dna is ready for transformation 
+- At least one colony is correct . 
+- strain name : ylic140 *MAT $\alpha$ can1-100 leu2-3,112 his3-11,15 BUD4 from S288C  **bem1::KanMX bem3::NAT CDC42::URA3-GAL1pr-CDC42,CAN1::MFAprHIS*** 
+  - two biological replicates , a (colony 2 **check again by PCR**) and b (colony 3 checked by colony PCR)

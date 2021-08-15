@@ -62,4 +62,19 @@ colorlinks: true
 
 - ylic140a/b did not grow in 0% Gal !!! 
   
+### 2nd experiment to test the measuring temperature
+
+- Change to 30C during measurement. 
+
+- Incubation : 09082021 (same layout as the previous experiment)
+![End of incubation](../Images/11082021-end-of-incubation_edited.png)
+
+- I suspect that well B10 and B11 are contaminated.....
+
+![End of measuring](../Images/13082021-end-of-measuring_edited.png)
+
 ## Conclusion
+
+- It seems at 30C the effect of bem1d is stronger than at 36C. 
+
+![Data Analysis by Werner Daalman](../Images/15082021-data-analysis-comparison-30C-vs-36C.png)

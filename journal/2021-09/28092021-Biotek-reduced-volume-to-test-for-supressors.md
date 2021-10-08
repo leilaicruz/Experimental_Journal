@@ -57,5 +57,9 @@ Note: With 30uL media still the bottom of the weel is not fully covered by the m
 
 ![End of measuring](../Images/02102021-end-of-measuring.png)
 
+![End of measuring II](../Images/05102021-end-of-measuring-II.png)
+
+Observation: The well B9 was accidently without any liquid so the line is shown is an artefact is not real data. 
+
 ## Conclusion
 

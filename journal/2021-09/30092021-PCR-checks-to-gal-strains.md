@@ -2,7 +2,7 @@
 title: "Genetic checks for the Gal strains used in the Biotek"
 output: pdf_document
 documentclass: article
-classoption: twocolumn
+classoption: onecolumn
 pdf_document:
 latex_engine: pdflatex
 toc: true
@@ -22,7 +22,9 @@ geometry: margin=0.5in
 autoEqnLabels: true
 cref: true
 crossref: true
+citeproc: true
 colorlinks: true
+fignos-cleveref: True
 ---
 
 # Title : Genetic checks for the Gal strains used in the Biotek
@@ -44,7 +46,7 @@ colorlinks: true
 - PCR 
 - Primers : 
 
-![](../Images/30092021-Gal1_CDC42_template_with_primers-Map.png)
+![Gal-Cdc42 template](../Images/30092021-Gal1_CDC42_template_with_primers-Map.png){#fig:gal-cdc42-template}
 
 
 
@@ -62,13 +64,14 @@ colorlinks: true
 | ywkd071II | 40ng/ul       |
 
 
-![](../Images/01102021-ywkd065-control-for-pgal-cdc42-sfGFP.png)
+![PCR on ywkd065](../Images/01102021-ywkd065-control-for-pgal-cdc42-sfGFP.png){#fig:pcr-ywkd065}
 
 - There is are suspicious bands when checking the cdc42 promoter. The primer pCdc42 downstream does not bind to the pgal construct DNA, hence I do not get the presence of this band...
 
-![Checks for ylic139 and ylic140](../Images/05102021-ylic139-140-pgal-cdc42-checks.png)
+![Checks for ylic139 and ylic140](../Images/05102021-ylic139-140-pgal-cdc42-checks.png){#fig:pgal-mutant-check}
 
-![](../Images/08102021-ywkd071-pgal-cdc42-ylic139-140-BEM1-BEM3_WEIRD.png)
+
+![Checks on BEM1 , BEM3 and pgal](../Images/08102021-ywkd071-pgal-cdc42-ylic139-140-BEM1-BEM3_WEIRD.png){#fig:BEM1-checks-mutant-wrong-primers}
 
 - It is streaking that the mutants ylic139 and ylic140 do have BEM1!!!! (aneuploidy???)
 - It seems ywkd071I does not have the endogenous CDC42 promoter. So it is good.
@@ -78,12 +81,14 @@ colorlinks: true
 - The primers olic60/61 were wrong!!! they were binding to kanmx cassette instead of BEM1. That explains the bands in the mutants..
 - I ordered new primers that bind to BEM1 upstream and downstream . Let see.. 
 
-![It shows that the mutants indeed have BEM1, which is cumbersome](../Images/141022021-FAILES-RIGHT-PRIMERS-BEM1-on-mutants.png)
+![It shows that the mutants indeed have BEM1, which is cumbersome](../Images/141022021-FAILES-RIGHT-PRIMERS-BEM1-on-mutants.png){#fig:right-primers-mutants}
 
 
 ### PCR on control strains
 
-![](../Images/18102021-check-on-BEM1-kanmx-yll117-ytw001-ywt004-141a-142a.png)
+![BEM1 checks with right primers with contrl strains](../Images/18102021-check-on-BEM1-kanmx-yll117-ytw001-ywt004-141a-142a.png){#fig:control-strains}
+
+*@fig:control-strains 
 
 - original strain used for transformation (yll117) does not show a band for BEM1. This is good. 
 - The strain from Thomas ytw001: $\Delta$bem1$\Delta$bem3 seems to have both (**I dont understand this**), also my strains ylic141/ylic142 , 
@@ -105,4 +110,5 @@ ywkd017:
   - ylic141
   - ylic142
   - ytw001 
+
 
